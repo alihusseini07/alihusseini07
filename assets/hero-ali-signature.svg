@@ -40,7 +40,7 @@
   <circle cx="60" cy="50" r="6" fill="#FF5F57"/>
   <circle cx="80" cy="50" r="6" fill="#FEBC2E"/>
   <circle cx="100" cy="50" r="6" fill="#28C840"/>
-  <text x="640" y="55" text-anchor="middle" fill="#7E94A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13">— zsh — ali@waterloo: ~/profile —</text>
+  <text x="640" y="55" text-anchor="middle" fill="#7E94A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13">— zsh — alihusseini07: ~/profile —</text>
   <circle cx="1182" cy="50" r="4" fill="#4ADE80"/>
   <text x="1194" y="54" fill="#4ADE80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12">online</text>
 
@@ -76,20 +76,20 @@
     <!-- RIGHT: terminal session -->
     <g transform="translate(540, 116)" font-size="15">
       <!-- prompt 1 -->
-      <text fill="#4ADE80">ali@waterloo</text>
-      <text x="100" fill="#7E94A8">:</text>
-      <text x="108" fill="#22D3EE">~/profile</text>
-      <text x="188" fill="#7E94A8">$</text>
-      <text x="206" fill="#E6F1FB">cat headline.txt</text>
+      <text fill="#4ADE80">alihusseini07</text>
+      <text x="109" fill="#7E94A8">:</text>
+      <text x="117" fill="#22D3EE">~/profile</text>
+      <text x="197" fill="#7E94A8">$</text>
+      <text x="215" fill="#E6F1FB">cat headline.txt</text>
       <text y="28" fill="#F7FAFC" font-size="22" font-weight="700">building things that actually work.</text>
       <text y="54" fill="#7E94A8" font-size="13">// practical systems · shipped with intent</text>
 
       <!-- prompt 2 -->
-      <text y="98" fill="#4ADE80">ali@waterloo</text>
-      <text y="98" x="100" fill="#7E94A8">:</text>
-      <text y="98" x="108" fill="#22D3EE">~/profile</text>
-      <text y="98" x="188" fill="#7E94A8">$</text>
-      <text y="98" x="206" fill="#E6F1FB">echo $STATUS</text>
+      <text y="98" fill="#4ADE80">alihusseini07</text>
+      <text y="98" x="109" fill="#7E94A8">:</text>
+      <text y="98" x="117" fill="#22D3EE">~/profile</text>
+      <text y="98" x="197" fill="#7E94A8">$</text>
+      <text y="98" x="215" fill="#E6F1FB">echo $STATUS</text>
 
       <text y="126" fill="#FACC15">[OPEN]</text>
       <text y="126" x="64" fill="#E6F1FB">Fall 2026 SWE internships</text>
@@ -101,11 +101,11 @@
       <text y="174" x="64" fill="#9AB1C5">user-first products · fast, useful, well-structured</text>
 
       <!-- prompt 3 (active) -->
-      <text y="218" fill="#4ADE80">ali@waterloo</text>
-      <text y="218" x="100" fill="#7E94A8">:</text>
-      <text y="218" x="108" fill="#22D3EE">~/profile</text>
-      <text y="218" x="188" fill="#7E94A8">$</text>
-      <rect x="206" y="206" width="9" height="14" fill="#4ADE80">
+      <text y="218" fill="#4ADE80">alihusseini07</text>
+      <text y="218" x="109" fill="#7E94A8">:</text>
+      <text y="218" x="117" fill="#22D3EE">~/profile</text>
+      <text y="218" x="197" fill="#7E94A8">$</text>
+      <rect x="215" y="206" width="9" height="14" fill="#4ADE80">
         <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
       </rect>
     </g>

@@ -24,69 +24,68 @@
   <circle cx="60" cy="50" r="6" fill="#FF5F57"/>
   <circle cx="80" cy="50" r="6" fill="#FEBC2E"/>
   <circle cx="100" cy="50" r="6" fill="#28C840"/>
-  <text x="640" y="55" text-anchor="middle" fill="#7E94A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13">— zsh — ali@waterloo: ~/stack —</text>
+  <text x="640" y="55" text-anchor="middle" fill="#7E94A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13">— zsh — alihusseini07: ~/stack —</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="15">
 
     <!-- prompt header -->
-    <text x="72" y="108" fill="#4ADE80">ali@waterloo</text>
-    <text x="172" y="108" fill="#7E94A8">:</text>
-    <text x="180" y="108" fill="#22D3EE">~</text>
-    <text x="194" y="108" fill="#7E94A8">$</text>
-    <text x="212" y="108" fill="#E6F1FB">tree ~/stack -L 2 --color</text>
+    <text x="72" y="108" fill="#4ADE80">alihusseini07</text>
+    <text x="180" y="108" fill="#7E94A8">:</text>
+    <text x="188" y="108" fill="#22D3EE">~/stack</text>
+    <text x="252" y="108" fill="#7E94A8">$</text>
+    <text x="270" y="108" fill="#E6F1FB">tree . --color</text>
 
-    <text x="72" y="138" fill="#7E94A8">~/stack</text>
-
-    <!-- LANGUAGES column -->
-    <g transform="translate(72, 178)">
-      <text fill="#FACC15" font-weight="700">├── languages/</text>
-      <text y="32"  fill="#7E94A8">│   ├── </text><text x="56" y="32"  fill="#3776AB" font-weight="600">Python</text>
-      <text y="58"  fill="#7E94A8">│   ├── </text><text x="56" y="58"  fill="#3178C6" font-weight="600">TypeScript</text>
-      <text y="84"  fill="#7E94A8">│   ├── </text><text x="56" y="84"  fill="#F7DF1E" font-weight="600">JavaScript</text>
-      <text y="110" fill="#7E94A8">│   ├── </text><text x="56" y="110" fill="#659AD2" font-weight="600">C++</text>
-      <text y="136" fill="#7E94A8">│   ├── </text><text x="56" y="136" fill="#F89820" font-weight="600">Java</text>
-      <text y="162" fill="#7E94A8">│   ├── </text><text x="56" y="162" fill="#E48E00" font-weight="600">SQL</text>
-      <text y="188" fill="#7E94A8">│   ├── </text><text x="56" y="188" fill="#FA7343" font-weight="600">Swift</text>
-      <text y="214" fill="#7E94A8">│   ├── </text><text x="56" y="214" fill="#4EAA25" font-weight="600">Bash</text>
-      <text y="240" fill="#7E94A8">│   ├── </text><text x="56" y="240" fill="#E34F26" font-weight="600">HTML</text>
-      <text y="266" fill="#7E94A8">│   └── </text><text x="56" y="266" fill="#1572B6" font-weight="600">CSS</text>
+    <!-- LANGUAGES subtree -->
+    <g transform="translate(72, 150)">
+      <text fill="#FACC15" font-weight="700">languages/</text>
+      <text y="28"  fill="#7E94A8">├── </text><text x="36" y="28"  fill="#3776AB" font-weight="600">Python</text>
+      <text y="54"  fill="#7E94A8">├── </text><text x="36" y="54"  fill="#3178C6" font-weight="600">TypeScript</text>
+      <text y="80"  fill="#7E94A8">├── </text><text x="36" y="80"  fill="#F7DF1E" font-weight="600">JavaScript</text>
+      <text y="106" fill="#7E94A8">├── </text><text x="36" y="106" fill="#659AD2" font-weight="600">C++</text>
+      <text y="132" fill="#7E94A8">├── </text><text x="36" y="132" fill="#F89820" font-weight="600">Java</text>
+      <text y="158" fill="#7E94A8">├── </text><text x="36" y="158" fill="#E48E00" font-weight="600">SQL</text>
+      <text y="184" fill="#7E94A8">├── </text><text x="36" y="184" fill="#FA7343" font-weight="600">Swift</text>
+      <text y="210" fill="#7E94A8">├── </text><text x="36" y="210" fill="#4EAA25" font-weight="600">Bash</text>
+      <text y="236" fill="#7E94A8">├── </text><text x="36" y="236" fill="#E34F26" font-weight="600">HTML</text>
+      <text y="262" fill="#7E94A8">└── </text><text x="36" y="262" fill="#1572B6" font-weight="600">CSS</text>
     </g>
 
-    <!-- FRAMEWORKS column -->
-    <g transform="translate(488, 178)">
-      <text fill="#67E8F9" font-weight="700">├── frameworks/</text>
-      <text y="32"  fill="#7E94A8">│   ├── </text><text x="56" y="32"  fill="#61DAFB" font-weight="600">React</text>
-      <text y="58"  fill="#7E94A8">│   ├── </text><text x="56" y="58"  fill="#E6F1FB" font-weight="600">Next.js</text>
-      <text y="84"  fill="#7E94A8">│   ├── </text><text x="56" y="84"  fill="#FA7343" font-weight="600">SwiftUI</text>
-      <text y="110" fill="#7E94A8">│   ├── </text><text x="56" y="110" fill="#06B6D4" font-weight="600">Tailwind CSS</text>
-      <text y="136" fill="#7E94A8">│   ├── </text><text x="56" y="136" fill="#5FA04E" font-weight="600">Node.js</text>
-      <text y="162" fill="#7E94A8">│   ├── </text><text x="56" y="162" fill="#CBD5E1" font-weight="600">Express</text>
-      <text y="188" fill="#7E94A8">│   ├── </text><text x="56" y="188" fill="#CBD5E1" font-weight="600">Fastify</text>
-      <text y="214" fill="#7E94A8">│   ├── </text><text x="56" y="214" fill="#5EEAD4" font-weight="600">Prisma</text>
-      <text y="240" fill="#7E94A8">│   ├── </text><text x="56" y="240" fill="#4DABCF" font-weight="600">NumPy</text>
-      <text y="266" fill="#7E94A8">│   ├── </text><text x="56" y="266" fill="#E70488" font-weight="600">Pandas</text>
-      <text y="292" fill="#7E94A8">│   ├── </text><text x="56" y="292" fill="#2EAD33" font-weight="600">Playwright</text>
-      <text y="318" fill="#7E94A8">│   ├── </text><text x="56" y="318" fill="#0A9EDC" font-weight="600">pytest</text>
-      <text y="344" fill="#7E94A8">│   └── </text><text x="56" y="344" fill="#F26B23" font-weight="600">SuiteScript</text>
+    <!-- FRAMEWORKS subtree -->
+    <g transform="translate(488, 150)">
+      <text fill="#67E8F9" font-weight="700">frameworks/</text>
+      <text y="28"  fill="#7E94A8">├── </text><text x="36" y="28"  fill="#61DAFB" font-weight="600">React</text>
+      <text y="54"  fill="#7E94A8">├── </text><text x="36" y="54"  fill="#E6F1FB" font-weight="600">Next.js</text>
+      <text y="80"  fill="#7E94A8">├── </text><text x="36" y="80"  fill="#FA7343" font-weight="600">SwiftUI</text>
+      <text y="106" fill="#7E94A8">├── </text><text x="36" y="106" fill="#06B6D4" font-weight="600">Tailwind CSS</text>
+      <text y="132" fill="#7E94A8">├── </text><text x="36" y="132" fill="#5FA04E" font-weight="600">Node.js</text>
+      <text y="158" fill="#7E94A8">├── </text><text x="36" y="158" fill="#CBD5E1" font-weight="600">Express</text>
+      <text y="184" fill="#7E94A8">├── </text><text x="36" y="184" fill="#CBD5E1" font-weight="600">Fastify</text>
+      <text y="210" fill="#7E94A8">├── </text><text x="36" y="210" fill="#5EEAD4" font-weight="600">Prisma</text>
+      <text y="236" fill="#7E94A8">├── </text><text x="36" y="236" fill="#4DABCF" font-weight="600">NumPy</text>
+      <text y="262" fill="#7E94A8">├── </text><text x="36" y="262" fill="#E70488" font-weight="600">Pandas</text>
+      <text y="288" fill="#7E94A8">├── </text><text x="36" y="288" fill="#2EAD33" font-weight="600">Playwright</text>
+      <text y="314" fill="#7E94A8">├── </text><text x="36" y="314" fill="#0A9EDC" font-weight="600">pytest</text>
+      <text y="340" fill="#7E94A8">└── </text><text x="36" y="340" fill="#F26B23" font-weight="600">SuiteScript</text>
     </g>
 
-    <!-- INFRA column -->
-    <g transform="translate(904, 178)">
-      <text fill="#86EFAC" font-weight="700">└── infra/</text>
-      <text y="32"  fill="#7E94A8">    ├── </text><text x="56" y="32"  fill="#F05032" font-weight="600">Git</text>
-      <text y="58"  fill="#7E94A8">    ├── </text><text x="56" y="58"  fill="#E6F1FB" font-weight="600">GitHub</text>
-      <text y="84"  fill="#7E94A8">    ├── </text><text x="56" y="84"  fill="#2496ED" font-weight="600">Docker</text>
-      <text y="110" fill="#7E94A8">    ├── </text><text x="56" y="110" fill="#4169E1" font-weight="600">PostgreSQL</text>
-      <text y="136" fill="#7E94A8">    ├── </text><text x="56" y="136" fill="#3ECF8E" font-weight="600">Supabase</text>
-      <text y="162" fill="#7E94A8">    ├── </text><text x="56" y="162" fill="#00E599" font-weight="600">Neon</text>
-      <text y="188" fill="#7E94A8">    ├── </text><text x="56" y="188" fill="#BC59FE" font-weight="600">Railway</text>
-      <text y="214" fill="#7E94A8">    ├── </text><text x="56" y="214" fill="#F26B23" font-weight="600">NetSuite</text>
-      <text y="240" fill="#7E94A8">    ├── </text><text x="56" y="240" fill="#F26B23" font-weight="600">SuiteCloud</text>
-      <text y="266" fill="#7E94A8">    ├── </text><text x="56" y="266" fill="#E6F1FB" font-weight="600">Notion</text>
-      <text y="292" fill="#7E94A8">    ├── </text><text x="56" y="292" fill="#21A366" font-weight="600">Excel</text>
-      <text y="318" fill="#7E94A8">    ├── </text><text x="56" y="318" fill="#FF9900" font-weight="600">AWS S3</text>
-      <text y="344" fill="#7E94A8">    ├── </text><text x="56" y="344" fill="#FF9900" font-weight="600">AWS Lambda</text>
-      <text y="370" fill="#7E94A8">    └── </text><text x="56" y="370" fill="#FF9900" font-weight="600">AWS Bedrock</text>
+    <!-- INFRA subtree (with nested AWS) -->
+    <g transform="translate(904, 150)">
+      <text fill="#86EFAC" font-weight="700">infra/</text>
+      <text y="28"  fill="#7E94A8">├── </text><text x="36" y="28"  fill="#F05032" font-weight="600">Git</text>
+      <text y="54"  fill="#7E94A8">├── </text><text x="36" y="54"  fill="#E6F1FB" font-weight="600">GitHub</text>
+      <text y="80"  fill="#7E94A8">├── </text><text x="36" y="80"  fill="#2496ED" font-weight="600">Docker</text>
+      <text y="106" fill="#7E94A8">├── </text><text x="36" y="106" fill="#4169E1" font-weight="600">PostgreSQL</text>
+      <text y="132" fill="#7E94A8">├── </text><text x="36" y="132" fill="#3ECF8E" font-weight="600">Supabase</text>
+      <text y="158" fill="#7E94A8">├── </text><text x="36" y="158" fill="#00E599" font-weight="600">Neon</text>
+      <text y="184" fill="#7E94A8">├── </text><text x="36" y="184" fill="#BC59FE" font-weight="600">Railway</text>
+      <text y="210" fill="#7E94A8">├── </text><text x="36" y="210" fill="#F26B23" font-weight="600">NetSuite</text>
+      <text y="236" fill="#7E94A8">├── </text><text x="36" y="236" fill="#F26B23" font-weight="600">SuiteCloud</text>
+      <text y="262" fill="#7E94A8">├── </text><text x="36" y="262" fill="#E6F1FB" font-weight="600">Notion</text>
+      <text y="288" fill="#7E94A8">├── </text><text x="36" y="288" fill="#21A366" font-weight="600">Excel</text>
+      <text y="314" fill="#7E94A8">└── </text><text x="36" y="314" fill="#FF9900" font-weight="700">AWS/</text>
+      <text x="36" y="340" fill="#7E94A8">├── </text><text x="72" y="340" fill="#FF9900" font-weight="600">S3</text>
+      <text x="36" y="366" fill="#7E94A8">├── </text><text x="72" y="366" fill="#FF9900" font-weight="600">Lambda</text>
+      <text x="36" y="392" fill="#7E94A8">└── </text><text x="72" y="392" fill="#FF9900" font-weight="600">Bedrock</text>
     </g>
   </g>
 
