@@ -52,40 +52,57 @@ not just shown.
 
 ## `stack`
 
+### Languages
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-5779B7?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3B82F6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-FACC15?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
   <img src="https://img.shields.io/badge/C%2B%2B-0F3D91?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Java-1F2937?style=for-the-badge&logo=openjdk&logoColor=F97316" alt="Java" />
+  <img src="https://img.shields.io/badge/SQL-1D4ED8?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/Swift-0F172A?style=for-the-badge&logo=swift&logoColor=F97316" alt="Swift" />
 </p>
 
+### Frameworks / Libraries
+
 <p align="center">
   <img src="https://img.shields.io/badge/React-7DD3FC?style=for-the-badge&logo=react&logoColor=082F49" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-0B111B?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/SwiftUI-111827?style=for-the-badge&logo=swift&logoColor=FB923C" alt="SwiftUI" />
   <img src="https://img.shields.io/badge/SuiteScript-1D4ED8?style=for-the-badge&logo=oracle&logoColor=white" alt="SuiteScript" />
-  <img src="https://img.shields.io/badge/Fastify-0F172A?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
+  <img src="https://img.shields.io/badge/SwiftUI-111827?style=for-the-badge&logo=swift&logoColor=FB923C" alt="SwiftUI" />
+  <img src="https://img.shields.io/badge/Next.js-0B111B?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Node.js-166534?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/NumPy-1E293B?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas&logoColor=E879F9" alt="Pandas" />
   <img src="https://img.shields.io/badge/Prisma-0F172A?style=for-the-badge&logo=prisma&logoColor=7DD3FC" alt="Prisma" />
+  <img src="https://img.shields.io/badge/pytest-334155?style=for-the-badge&logo=pytest&logoColor=F59E0B" alt="pytest" />
+  <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/Fastify-0F172A?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
   <img src="https://img.shields.io/badge/Playwright-1F2937?style=for-the-badge&logo=playwright&logoColor=4ADE80" alt="Playwright" />
 </p>
 
+### Tools
+
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-3759D7?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Docker-5B8DEF?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-3759D7?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Supabase-0F172A?style=for-the-badge&logo=supabase&logoColor=34D399" alt="Supabase" />
   <img src="https://img.shields.io/badge/Neon-111827?style=for-the-badge&logo=postgresql&logoColor=A78BFA" alt="Neon" />
   <img src="https://img.shields.io/badge/Railway-111827?style=for-the-badge&logo=railway&logoColor=E5E7EB" alt="Railway" />
-  <img src="https://img.shields.io/badge/AWS-0F172A?style=for-the-badge&logo=amazonaws&logoColor=F59E0B" alt="AWS" />
   <img src="https://img.shields.io/badge/NetSuite-0F172A?style=for-the-badge&logo=oracle&logoColor=67E8F9" alt="NetSuite" />
+  <img src="https://img.shields.io/badge/SuiteCloud-1E293B?style=for-the-badge&logo=icloud&logoColor=93C5FD" alt="SuiteCloud" />
+  <img src="https://img.shields.io/badge/Notion-111827?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/Excel-14532D?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/AWS_S3-1F2937?style=for-the-badge&logo=amazons3&logoColor=22C55E" alt="AWS S3" />
+  <img src="https://img.shields.io/badge/AWS_Lambda-172554?style=for-the-badge&logo=awslambda&logoColor=F59E0B" alt="AWS Lambda" />
+  <img src="https://img.shields.io/badge/AWS_Bedrock-111827?style=for-the-badge&logo=amazonaws&logoColor=F59E0B" alt="AWS Bedrock" />
 </p>
-
-<details>
-  <summary><strong>More tools I use</strong></summary>
-  <br/>
-  Git, GitHub, Tailwind CSS, Node.js, Express, NumPy, Pandas, pytest, SQL, HTML, CSS, Bash, SuiteCloud, Notion, Excel, AWS S3, AWS Lambda, AWS Bedrock, AutoCAD, Fusion 360, Autodesk Inventor, SolidWorks
-</details>
 
 ## `featured_builds`
 

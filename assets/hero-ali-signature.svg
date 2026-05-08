@@ -38,17 +38,19 @@
     </circle>
   </g>
 
-  <g opacity="0.8">
-    <rect x="88" y="88" width="196" height="196" rx="22" fill="#091521" stroke="#153247"/>
-    <rect x="114" y="114" width="144" height="144" rx="18" fill="#0B1C2A" stroke="#1C4E66"/>
-    <path d="M154 204V170.4C154 164.179 159.045 159.134 165.266 159.134H171.243C177.464 159.134 182.509 164.179 182.509 170.4V204" stroke="#22D3EE" stroke-width="10" stroke-linecap="round"/>
-    <path d="M190 204V152C190 145.373 195.373 140 202 140C208.627 140 214 145.373 214 152V204" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
-    <path d="M154 221H224" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="224" cy="221" r="7" fill="#34D399">
-      <animate attributeName="cx" values="224;235;224" dur="4s" repeatCount="indefinite"/>
+  <g opacity="0.95">
+    <circle cx="180" cy="194" r="84" fill="#08131E" stroke="#143247" stroke-width="2"/>
+    <circle cx="180" cy="194" r="58" fill="none" stroke="#173E55" stroke-width="2"/>
+    <path d="M147 229V170C147 162.268 153.268 156 161 156C168.732 156 175 162.268 175 170V229" stroke="#22D3EE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M185 229V160C185 152.268 191.268 146 199 146C206.732 146 213 152.268 213 160V229" stroke="#34D399" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M145 242H220" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="220" cy="242" r="6" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="165" cy="159" r="5.5" fill="#22D3EE"/>
-    <circle cx="202" cy="140" r="5.5" fill="#34D399"/>
+    <path d="M109 194H82" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
+    <path d="M278 194H251" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
+    <path d="M180 123V98" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
+    <path d="M180 290V264" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
   </g>
 
   <g filter="url(#blurGlow)" opacity="0.35">
@@ -56,20 +58,9 @@
   </g>
 
   <text x="332" y="142" fill="#7DD3FC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">ALI HUSSEINI</text>
-  <text x="332" y="214" fill="white" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5">practical systems,</text>
-  <text x="332" y="274" fill="white" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5">shipped with intent</text>
-  <text x="334" y="322" fill="#9DB4C8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">uwaterloo mechatronics | ai workflow tools | full-stack builds | embedded engineering</text>
-
-  <g opacity="0.95">
-    <rect x="334" y="348" width="182" height="34" rx="17" fill="#0C1924" stroke="#183647"/>
-    <text x="425" y="370" text-anchor="middle" fill="#D8F7FF" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">ATS360 / Netdynamic</text>
-    <rect x="530" y="348" width="118" height="34" rx="17" fill="#0C1924" stroke="#183647"/>
-    <text x="589" y="370" text-anchor="middle" fill="#D8F7FF" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">ChefIt</text>
-    <rect x="662" y="348" width="106" height="34" rx="17" fill="#0C1924" stroke="#183647"/>
-    <text x="715" y="370" text-anchor="middle" fill="#D8F7FF" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">Clarus</text>
-    <rect x="782" y="348" width="154" height="34" rx="17" fill="#0C1924" stroke="#183647"/>
-    <text x="859" y="370" text-anchor="middle" fill="#D8F7FF" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">WaterlooWorks+</text>
-  </g>
+  <text x="332" y="204" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.8">practical systems,</text>
+  <text x="332" y="266" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.8">shipped with intent</text>
+  <text x="334" y="316" fill="#9DB4C8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">uwaterloo mechatronics | ai workflow tools | full-stack builds | embedded engineering</text>
 
   <path d="M980 272C1002 256 1026 248 1056 248C1092 248 1126 264 1146 282" stroke="url(#aqua)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
   <path d="M980 300C1006 289 1032 283 1061 283C1093 283 1120 291 1147 307" stroke="url(#aqua)" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
