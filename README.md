@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero-ali-signature.svg" width="100%" alt="Ali Husseini — terminal hero" />
+  <img src="./assets/hero.svg" width="100%" alt="Ali Husseini — terminal hero" />
 </p>
 
 <pre>
@@ -28,7 +28,7 @@ and code that someone else can read six months later.
 ```
 
 <p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Stack — languages, frameworks, infra" />
+  <img src="./assets/stack-tree.svg" width="100%" alt="Stack — languages, frameworks, infra" />
 </p>
 
 <pre>
