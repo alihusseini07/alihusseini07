@@ -1,75 +1,114 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ali Husseini — terminal hero">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#05070B"/>
-      <stop offset="1" stop-color="#0A1017"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06080C"/>
+      <stop offset="1" stop-color="#0A1118"/>
     </linearGradient>
-    <linearGradient id="panel" x1="64" y1="54" x2="1136" y2="366" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1118"/>
-      <stop offset="1" stop-color="#0E1620"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#4ADE80"/>
     </linearGradient>
-    <linearGradient id="cyanGlow" x1="268" y1="94" x2="700" y2="310" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6F1FB"/>
+      <stop offset="1" stop-color="#9AB1C5"/>
     </linearGradient>
-    <linearGradient id="greenGlow" x1="790" y1="200" x2="1110" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4ADE80" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="8" height="4" fill="#FFFFFF" fill-opacity="0"/>
-      <rect y="4" width="8" height="1" fill="#8FB3C9" fill-opacity="0.05"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#11202C" stroke-width="1"/>
     </pattern>
-    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <radialGradient id="spotA" cx="0.18" cy="0.25" r="0.55">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotB" cx="0.85" cy="0.85" r="0.6">
+      <stop offset="0" stop-color="#4ADE80" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect x="18" y="18" width="1164" height="384" rx="24" fill="#060A0F" stroke="#1A2632" stroke-width="2"/>
-  <rect x="34" y="34" width="1132" height="352" rx="18" fill="url(#panel)" stroke="#203141" stroke-width="2"/>
-  <rect x="34" y="34" width="1132" height="352" rx="18" fill="url(#scanlines)"/>
-  <rect x="34" y="34" width="1132" height="42" rx="18" fill="#0A0F15"/>
-  <path d="M34 58H1166" stroke="#16212C"/>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)" opacity="0.55"/>
 
-  <text x="62" y="60" fill="#94A8BC" font-family="'Courier New', monospace" font-size="13">alihusseini07@github: ~/profile</text>
-  <text x="1010" y="60" fill="#4ADE80" font-family="'Courier New', monospace" font-size="13">status: online</text>
+  <!-- terminal window -->
+  <rect x="36" y="28" width="1208" height="364" rx="14" fill="#05080C" stroke="#1B2733" stroke-width="1.5"/>
+  <rect x="36" y="28" width="1208" height="364" rx="14" fill="url(#spotA)"/>
+  <rect x="36" y="28" width="1208" height="364" rx="14" fill="url(#spotB)"/>
 
-  <rect x="58" y="96" width="248" height="230" rx="14" fill="#091019" stroke="#1A2C3C"/>
-  <rect x="58" y="96" width="248" height="230" rx="14" fill="url(#cyanGlow)"/>
-  <text x="78" y="126" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ whoami</text>
-  <text x="78" y="156" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="15">Ali Husseini</text>
-  <text x="78" y="180" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="14">Mechatronics Engineering, 1B</text>
-  <text x="78" y="204" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="14">University of Waterloo</text>
-  <text x="78" y="246" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ current_focus</text>
-  <text x="78" y="276" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">AI workflows</text>
-  <text x="78" y="298" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">full-stack products</text>
-  <text x="78" y="320" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">embedded systems</text>
+  <!-- title bar -->
+  <path d="M36 42 a14 14 0 0 1 14 -14 h1180 a14 14 0 0 1 14 14 v30 h-1208 z" fill="#0E151D"/>
+  <line x1="36" y1="72" x2="1244" y2="72" stroke="#1B2733" stroke-width="1"/>
+  <circle cx="60" cy="50" r="6" fill="#FF5F57"/>
+  <circle cx="80" cy="50" r="6" fill="#FEBC2E"/>
+  <circle cx="100" cy="50" r="6" fill="#28C840"/>
+  <text x="640" y="55" text-anchor="middle" fill="#7E94A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13">— zsh — ali@waterloo: ~/profile —</text>
+  <circle cx="1182" cy="50" r="4" fill="#4ADE80"/>
+  <text x="1194" y="54" fill="#4ADE80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="12">online</text>
 
-  <rect x="334" y="96" width="790" height="230" rx="14" fill="#0A1017" stroke="#1A2C3C"/>
-  <rect x="334" y="96" width="790" height="230" rx="14" fill="url(#greenGlow)"/>
-  <text x="362" y="130" fill="#4ADE80" font-family="'Courier New', monospace" font-size="14">$ cat headline.txt</text>
-  <g filter="url(#textGlow)">
-    <text x="362" y="188" fill="#F7FAFC" font-family="'Courier New', monospace" font-size="44" font-weight="700">building things</text>
-    <text x="362" y="236" fill="#F7FAFC" font-family="'Courier New', monospace" font-size="44" font-weight="700">that actually work</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+
+    <!-- LEFT: wordmark -->
+    <g transform="translate(80, 130)">
+      <text x="0" y="0" font-size="18" fill="#22D3EE" font-weight="700">~/</text>
+      <text x="32" y="0" font-size="18" fill="#7E94A8">whoami</text>
+      <text x="0" y="118" font-size="148" font-weight="800" fill="url(#wordmark)" letter-spacing="-6">ali</text>
+      <rect x="220" y="40" width="22" height="80" fill="#4ADE80">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="160" font-size="15" fill="#9AB1C5">Ali Husseini</text>
+      <text x="0" y="184" font-size="14" fill="#5C7388">Mechatronics Eng · 1B · Waterloo</text>
+
+      <!-- chip row -->
+      <g transform="translate(0,212)" font-size="12">
+        <rect x="0" y="0" width="86" height="24" rx="12" fill="#0B1A22" stroke="#22D3EE" stroke-opacity="0.45"/>
+        <text x="43" y="16" text-anchor="middle" fill="#67E8F9">applied AI</text>
+        <rect x="94" y="0" width="92" height="24" rx="12" fill="#0B1A22" stroke="#67E8F9" stroke-opacity="0.4"/>
+        <text x="140" y="16" text-anchor="middle" fill="#9AB1C5">full-stack</text>
+        <rect x="194" y="0" width="92" height="24" rx="12" fill="#0B1A22" stroke="#4ADE80" stroke-opacity="0.4"/>
+        <text x="240" y="16" text-anchor="middle" fill="#86EFAC">embedded</text>
+      </g>
+    </g>
+
+    <!-- vertical divider -->
+    <line x1="500" y1="100" x2="500" y2="360" stroke="#15212C" stroke-width="1" stroke-dasharray="2 5"/>
+
+    <!-- RIGHT: terminal session -->
+    <g transform="translate(540, 116)" font-size="15">
+      <!-- prompt 1 -->
+      <text fill="#4ADE80">ali@waterloo</text>
+      <text x="100" fill="#7E94A8">:</text>
+      <text x="108" fill="#22D3EE">~/profile</text>
+      <text x="188" fill="#7E94A8">$</text>
+      <text x="206" fill="#E6F1FB">cat headline.txt</text>
+      <text y="28" fill="#F7FAFC" font-size="22" font-weight="700">building things that actually work.</text>
+      <text y="54" fill="#7E94A8" font-size="13">// practical systems · shipped with intent</text>
+
+      <!-- prompt 2 -->
+      <text y="98" fill="#4ADE80">ali@waterloo</text>
+      <text y="98" x="100" fill="#7E94A8">:</text>
+      <text y="98" x="108" fill="#22D3EE">~/profile</text>
+      <text y="98" x="188" fill="#7E94A8">$</text>
+      <text y="98" x="206" fill="#E6F1FB">echo $STATUS</text>
+
+      <text y="126" fill="#FACC15">[OPEN]</text>
+      <text y="126" x="64" fill="#E6F1FB">Fall 2026 SWE internships</text>
+
+      <text y="150" fill="#A78BFA">[PREV]</text>
+      <text y="150" x="64" fill="#9AB1C5">SWE Co-op · ATS360 / Netdynamic</text>
+
+      <text y="174" fill="#22D3EE">[FOCUS]</text>
+      <text y="174" x="64" fill="#9AB1C5">useful, fast, well-structured products</text>
+
+      <!-- prompt 3 (active) -->
+      <text y="218" fill="#4ADE80">ali@waterloo</text>
+      <text y="218" x="100" fill="#7E94A8">:</text>
+      <text y="218" x="108" fill="#22D3EE">~/profile</text>
+      <text y="218" x="188" fill="#7E94A8">$</text>
+      <rect x="206" y="206" width="9" height="14" fill="#4ADE80">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
-  <text x="362" y="278" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="18">practical systems, shipped with intent</text>
 
-  <text x="362" y="318" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ echo $STATUS</text>
-  <text x="520" y="318" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">open to Fall 2026 internships</text>
-  <text x="362" y="344" fill="#4ADE80" font-family="'Courier New', monospace" font-size="14">$ history | tail -1</text>
-  <text x="520" y="344" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">previous co-op: ATS360 / Netdynamic</text>
-
-  <g opacity="0.7">
-    <path d="M1068 118H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1056 134H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1076 150H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1034 274H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1050 290H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
-    <path d="M1068 306H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
-  </g>
+  <!-- accent underline -->
+  <rect x="36" y="390" width="1208" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
 </svg>
