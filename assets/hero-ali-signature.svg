@@ -1,67 +1,109 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="120" y1="40" x2="1040" y2="380" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111B"/>
-      <stop offset="0.55" stop-color="#081622"/>
-      <stop offset="1" stop-color="#040A10"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071018"/>
+      <stop offset="1" stop-color="#0B1621"/>
     </linearGradient>
-    <linearGradient id="aqua" x1="166" y1="98" x2="998" y2="334" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#34D399"/>
+    <linearGradient id="screen" x1="64" y1="64" x2="1136" y2="356" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1B27"/>
+      <stop offset="1" stop-color="#09131B"/>
     </linearGradient>
-    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(286 116) rotate(45) scale(290 180)">
-      <stop stop-color="#22D3EE" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(940 310) rotate(180) scale(320 220)">
-      <stop stop-color="#34D399" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blurGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="24"/>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#4ADE80"/>
+    </linearGradient>
+    <pattern id="pixelGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" stroke="#133041" stroke-opacity="0.38"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect x="12" y="12" width="1176" height="396" rx="28" fill="url(#bg)" stroke="#132432" stroke-width="2"/>
-  <rect x="12" y="12" width="1176" height="396" rx="28" fill="url(#glowLeft)"/>
-  <rect x="12" y="12" width="1176" height="396" rx="28" fill="url(#glowRight)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="380" rx="24" fill="url(#screen)" stroke="#1B3444" stroke-width="2"/>
+  <rect x="20" y="20" width="1160" height="380" rx="24" fill="url(#pixelGrid)"/>
 
-  <g opacity="0.65">
-    <path d="M770 50C830 122 875 169 1022 194" stroke="#1C3547" stroke-width="2"/>
-    <path d="M758 82C842 138 921 173 1096 188" stroke="#1C3547" stroke-width="2"/>
-    <path d="M846 62C912 95 1015 117 1123 120" stroke="#1C3547" stroke-width="2"/>
-    <circle cx="1006" cy="150" r="4" fill="#22D3EE">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1064" cy="178" r="3" fill="#34D399">
-      <animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
+  <rect x="46" y="46" width="1108" height="24" rx="12" fill="#0D1A25" stroke="#183647"/>
+  <rect x="62" y="54" width="8" height="8" fill="#FB7185"/>
+  <rect x="76" y="54" width="8" height="8" fill="#FBBF24"/>
+  <rect x="90" y="54" width="8" height="8" fill="#4ADE80"/>
+  <text x="116" y="62" fill="#8FB3C9" font-family="'Courier New', monospace" font-size="12">ALI_PROFILE.EXE</text>
+
+  <rect x="64" y="96" width="240" height="248" fill="#08131B" stroke="#1D3B4C" stroke-width="2"/>
+  <rect x="80" y="112" width="208" height="216" fill="#0B1A24" stroke="#163A4C" stroke-width="2"/>
+
+  <rect x="104" y="136" width="20" height="20" fill="#67E8F9"/>
+  <rect x="124" y="136" width="20" height="20" fill="#67E8F9"/>
+  <rect x="164" y="136" width="20" height="20" fill="#4ADE80"/>
+  <rect x="184" y="136" width="20" height="20" fill="#4ADE80"/>
+  <rect x="104" y="156" width="20" height="20" fill="#67E8F9"/>
+  <rect x="144" y="156" width="20" height="20" fill="#67E8F9"/>
+  <rect x="164" y="156" width="20" height="20" fill="#4ADE80"/>
+  <rect x="184" y="156" width="20" height="20" fill="#4ADE80"/>
+  <rect x="104" y="176" width="20" height="20" fill="#67E8F9"/>
+  <rect x="144" y="176" width="20" height="20" fill="#67E8F9"/>
+  <rect x="164" y="176" width="20" height="20" fill="#4ADE80"/>
+  <rect x="184" y="176" width="20" height="20" fill="#4ADE80"/>
+  <rect x="104" y="196" width="20" height="20" fill="#67E8F9"/>
+  <rect x="124" y="196" width="20" height="20" fill="#67E8F9"/>
+  <rect x="144" y="196" width="20" height="20" fill="#67E8F9"/>
+  <rect x="164" y="196" width="20" height="20" fill="#4ADE80"/>
+  <rect x="184" y="196" width="20" height="20" fill="#4ADE80"/>
+  <rect x="104" y="232" width="120" height="12" fill="#7DD3FC"/>
+  <rect x="224" y="228" width="12" height="20" fill="#4ADE80">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="96" y="280" fill="#D7F9FF" font-family="'Courier New', monospace" font-size="16">CLASS: BUILDER</text>
+  <text x="96" y="302" fill="#92AEC1" font-family="'Courier New', monospace" font-size="13">UW MECHATRONICS 1B</text>
+
+  <g opacity="0.9">
+    <rect x="344" y="110" width="148" height="30" fill="#0D1E2A" stroke="#1E465C" stroke-width="2"/>
+    <text x="362" y="130" fill="#7DD3FC" font-family="'Courier New', monospace" font-size="18">ALI HUSSEINI</text>
   </g>
 
-  <g opacity="0.95">
-    <circle cx="180" cy="194" r="84" fill="#08131E" stroke="#143247" stroke-width="2"/>
-    <circle cx="180" cy="194" r="58" fill="none" stroke="#173E55" stroke-width="2"/>
-    <path d="M147 229V170C147 162.268 153.268 156 161 156C168.732 156 175 162.268 175 170V229" stroke="#22D3EE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M185 229V160C185 152.268 191.268 146 199 146C206.732 146 213 152.268 213 160V229" stroke="#34D399" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M145 242H220" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"/>
-    <circle cx="220" cy="242" r="6" fill="#34D399">
-      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M109 194H82" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
-    <path d="M278 194H251" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
-    <path d="M180 123V98" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
-    <path d="M180 290V264" stroke="#1E4258" stroke-width="2" stroke-linecap="round"/>
+  <g filter="url(#glow)">
+    <text x="344" y="198" fill="#F8FAFC" font-family="'Courier New', monospace" font-size="60" font-weight="700">BUILDING THINGS</text>
+    <text x="344" y="256" fill="#F8FAFC" font-family="'Courier New', monospace" font-size="60" font-weight="700">THAT ACTUALLY WORK</text>
   </g>
 
-  <g filter="url(#blurGlow)" opacity="0.35">
-    <ellipse cx="496" cy="180" rx="210" ry="70" fill="#22D3EE"/>
+  <text x="346" y="302" fill="#A9C2D3" font-family="'Courier New', monospace" font-size="24">ai workflows + full-stack products + embedded systems</text>
+  <text x="346" y="334" fill="#6EE7F9" font-family="'Courier New', monospace" font-size="18">co-op @ ATS360 / Netdynamic  |  chefit  |  clarus  |  waterlooworks+</text>
+
+  <g opacity="0.92">
+    <rect x="876" y="108" width="230" height="200" fill="#0A151E" stroke="#1B3D4E" stroke-width="2"/>
+    <rect x="894" y="126" width="32" height="32" fill="#67E8F9"/>
+    <rect x="930" y="126" width="32" height="32" fill="#4ADE80"/>
+    <rect x="966" y="126" width="32" height="32" fill="#67E8F9"/>
+    <rect x="1002" y="126" width="32" height="32" fill="#4ADE80"/>
+    <rect x="1038" y="126" width="32" height="32" fill="#67E8F9"/>
+
+    <rect x="894" y="176" width="176" height="12" fill="#123041"/>
+    <rect x="894" y="176" width="138" height="12" fill="#67E8F9"/>
+    <text x="894" y="171" fill="#D7F9FF" font-family="'Courier New', monospace" font-size="14">AI WORKFLOWS</text>
+
+    <rect x="894" y="220" width="176" height="12" fill="#123041"/>
+    <rect x="894" y="220" width="152" height="12" fill="#4ADE80"/>
+    <text x="894" y="215" fill="#D7F9FF" font-family="'Courier New', monospace" font-size="14">FULL-STACK</text>
+
+    <rect x="894" y="264" width="176" height="12" fill="#123041"/>
+    <rect x="894" y="264" width="118" height="12" fill="#7DD3FC"/>
+    <text x="894" y="259" fill="#D7F9FF" font-family="'Courier New', monospace" font-size="14">EMBEDDED</text>
   </g>
 
-  <text x="332" y="142" fill="#7DD3FC" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">ALI HUSSEINI</text>
-  <text x="332" y="204" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.8">practical systems,</text>
-  <text x="332" y="266" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-1.8">shipped with intent</text>
-  <text x="334" y="316" fill="#9DB4C8" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">uwaterloo mechatronics | ai workflow tools | full-stack builds | embedded engineering</text>
-
-  <path d="M980 272C1002 256 1026 248 1056 248C1092 248 1126 264 1146 282" stroke="url(#aqua)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
-  <path d="M980 300C1006 289 1032 283 1061 283C1093 283 1120 291 1147 307" stroke="url(#aqua)" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  <g opacity="0.48">
+    <rect x="816" y="64" width="16" height="16" fill="#123041"/>
+    <rect x="832" y="80" width="16" height="16" fill="#123041"/>
+    <rect x="848" y="96" width="16" height="16" fill="#123041"/>
+    <rect x="864" y="112" width="16" height="16" fill="#123041"/>
+    <rect x="1080" y="312" width="16" height="16" fill="#123041"/>
+    <rect x="1064" y="328" width="16" height="16" fill="#123041"/>
+    <rect x="1048" y="344" width="16" height="16" fill="#123041"/>
+    <rect x="1032" y="360" width="16" height="16" fill="#123041"/>
+  </g>
 </svg>
