@@ -2,14 +2,14 @@
   <img src="./assets/hero-ali-signature.svg" width="100%" alt="Ali Husseini — terminal hero" />
 </p>
 
-```bash
-$ ./connect --links
+<pre>
+<b>$ ./connect --links</b>
 ─────────────────────────────────────────────────────────────
-  portfolio   →  https://alihusseini.vercel.app/
-  linkedin    →  https://www.linkedin.com/in/ahusseini-profile
-  email       →  a35husse@uwaterloo.ca
+  portfolio   →  <a href="https://alihusseini.vercel.app/">alihusseini.vercel.app</a>
+  linkedin    →  <a href="https://www.linkedin.com/in/ahusseini-profile">linkedin.com/in/ahusseini-profile</a>
+  email       →  <a href="mailto:a35husse@uwaterloo.ca">a35husse@uwaterloo.ca</a>
 ─────────────────────────────────────────────────────────────
-```
+</pre>
 
 ```bash
 $ cat ~/profile/about.md
@@ -19,40 +19,29 @@ $ cat ~/profile/about.md
 I build practical systems that solve real problems cleanly —
 across applied AI, full-stack products, and embedded software.
 
-I care about: shipped over polished, fast over clever,
+I care about the user first. Every system I ship aims to feel
+fast, obvious, and friendly to the person actually using it —
+the kind of tool you don't have to think about, you just use.
+
+I also care about: shipped over polished, fast over clever,
 and code that someone else can read six months later.
 ```
 
-```bash
-$ tree ~/stack -L 2
-~/stack
-├── languages/
-│   ├── Python · TypeScript · JavaScript · C++ · Java
-│   └── SQL · Swift · Bash · HTML · CSS
-│
-├── frameworks/
-│   ├── React · Next.js · SwiftUI · Tailwind
-│   ├── Node.js · Express · Fastify · Prisma
-│   └── NumPy · Pandas · Playwright · pytest · SuiteScript
-│
-└── infra/
-    ├── Git · GitHub · Docker · Notion
-    ├── PostgreSQL · Supabase · Neon · Railway
-    ├── NetSuite · SuiteCloud · Excel
-    └── AWS (S3 · Lambda · Bedrock)
-```
+<p align="center">
+  <img src="./assets/stack.svg" width="100%" alt="Stack — languages, frameworks, infra" />
+</p>
 
-```bash
-$ ls -la ~/featured_builds
+<pre>
+<b>$ ls -la ~/featured_builds</b>
 total 4
-drwxr-xr-x  ChefIt/                # social cooking, computer-vision pantry
-drwxr-xr-x  Clarus/                # LLM-planned student dashboard, D2L sync
-drwxr-xr-x  WaterlooWorks+/        # co-op job ranker, Chrome extension
+drwxr-xr-x  <a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a>                # social cooking, computer-vision pantry
+drwxr-xr-x  <a href="https://github.com/athravseruwam07/clarus">Clarus/</a>                # LLM-planned student dashboard, D2L sync
+drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a>        # co-op job ranker, Chrome extension
 drwxr-xr-x  ATS360-Netdynamic/     # AI hiring tools, prod @ 30+ teams
-```
+</pre>
 
 <details>
-<summary><code>$ cat ~/featured_builds/ChefIt/README.md</code></summary>
+<summary><code>$ cat ~/featured_builds/<a href="https://github.com/MatthewKim07/chef-it">ChefIt</a>/README.md</code></summary>
 
 ```yaml
 stack:    SwiftUI · Node.js · Express · PostgreSQL · OpenAI Vision
@@ -62,7 +51,7 @@ summary:  Social cooking platform with pantry scanning, recipe matching,
 </details>
 
 <details>
-<summary><code>$ cat ~/featured_builds/Clarus/README.md</code></summary>
+<summary><code>$ cat ~/featured_builds/<a href="https://github.com/athravseruwam07/clarus">Clarus</a>/README.md</code></summary>
 
 ```yaml
 stack:    TypeScript · Next.js · React · Fastify · Prisma · Playwright
@@ -73,7 +62,7 @@ summary:  Student dashboard that syncs D2L course data and uses an
 </details>
 
 <details>
-<summary><code>$ cat ~/featured_builds/WaterlooWorks+/README.md</code></summary>
+<summary><code>$ cat ~/featured_builds/<a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+</a>/README.md</code></summary>
 
 ```yaml
 stack:    JavaScript · Node.js · PDF.js · Chrome Extension APIs
@@ -93,14 +82,15 @@ summary:  Built AI video screening, scheduling workflows, and resume
 </details>
 
 ```bash
-$ tail -n 4 ~/status.log
-[OPEN]   Fall 2026 SWE internships
-[PREV]   SWE Co-op  · ATS360 / Netdynamic
-[FOCUS]  applied AI with operational value
-[BUILD]  products that are useful, fast, and well-structured
+$ tail -n 5 ~/status.log
+[OPEN]    Fall 2026 SWE internships
+[PREV]    SWE Co-op  · ATS360 / Netdynamic
+[FOCUS]   applied AI with real operational value
+[BUILD]   user-first products — fast, useful, well-structured
+[VALUE]   if it doesn't feel good to use, it isn't done
 ```
 
 ```bash
 $ exit
-─ thanks for reading. find me at any of the links above. ─
+─ thanks for reading. links above are clickable. say hi anytime. ─
 ```

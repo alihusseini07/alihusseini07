@@ -59,12 +59,14 @@
 
       <!-- chip row -->
       <g transform="translate(0,212)" font-size="12">
-        <rect x="0" y="0" width="86" height="24" rx="12" fill="#0B1A22" stroke="#22D3EE" stroke-opacity="0.45"/>
-        <text x="43" y="16" text-anchor="middle" fill="#67E8F9">applied AI</text>
-        <rect x="94" y="0" width="92" height="24" rx="12" fill="#0B1A22" stroke="#67E8F9" stroke-opacity="0.4"/>
-        <text x="140" y="16" text-anchor="middle" fill="#9AB1C5">full-stack</text>
-        <rect x="194" y="0" width="92" height="24" rx="12" fill="#0B1A22" stroke="#4ADE80" stroke-opacity="0.4"/>
-        <text x="240" y="16" text-anchor="middle" fill="#86EFAC">embedded</text>
+        <rect x="0" y="0" width="78" height="24" rx="12" fill="#0B1A22" stroke="#FACC15" stroke-opacity="0.5"/>
+        <text x="39" y="16" text-anchor="middle" fill="#FDE68A">user-first</text>
+        <rect x="86" y="0" width="80" height="24" rx="12" fill="#0B1A22" stroke="#22D3EE" stroke-opacity="0.45"/>
+        <text x="126" y="16" text-anchor="middle" fill="#67E8F9">applied AI</text>
+        <rect x="174" y="0" width="86" height="24" rx="12" fill="#0B1A22" stroke="#67E8F9" stroke-opacity="0.4"/>
+        <text x="217" y="16" text-anchor="middle" fill="#9AB1C5">full-stack</text>
+        <rect x="268" y="0" width="80" height="24" rx="12" fill="#0B1A22" stroke="#4ADE80" stroke-opacity="0.4"/>
+        <text x="308" y="16" text-anchor="middle" fill="#86EFAC">embedded</text>
       </g>
     </g>
 
@@ -96,7 +98,7 @@
       <text y="150" x="64" fill="#9AB1C5">SWE Co-op · ATS360 / Netdynamic</text>
 
       <text y="174" fill="#22D3EE">[FOCUS]</text>
-      <text y="174" x="64" fill="#9AB1C5">useful, fast, well-structured products</text>
+      <text y="174" x="64" fill="#9AB1C5">user-first products · fast, useful, well-structured</text>
 
       <!-- prompt 3 (active) -->
       <text y="218" fill="#4ADE80">ali@waterloo</text>
