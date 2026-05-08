@@ -1,23 +1,25 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <clipPath id="frameClip">
-      <rect x="12" y="12" width="1176" height="396" rx="28"/>
-    </clipPath>
-    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050409" stop-opacity="0.82"/>
-      <stop offset="1" stop-color="#050409" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="1" stop-color="#0A1017"/>
     </linearGradient>
-    <linearGradient id="bottomShade" x1="0" y1="420" x2="0" y2="220" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050409" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#050409" stop-opacity="0"/>
+    <linearGradient id="panel" x1="64" y1="54" x2="1136" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1118"/>
+      <stop offset="1" stop-color="#0E1620"/>
     </linearGradient>
-    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#2E2017"/>
-      <stop offset="1" stop-color="#14181F"/>
+    <linearGradient id="cyanGlow" x1="268" y1="94" x2="700" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
-    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
+    <linearGradient id="greenGlow" x1="790" y1="200" x2="1110" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="4" fill="#FFFFFF" fill-opacity="0"/>
+      <rect y="4" width="8" height="1" fill="#8FB3C9" fill-opacity="0.05"/>
+    </pattern>
     <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
@@ -27,58 +29,47 @@
     </filter>
   </defs>
 
-  <rect x="12" y="12" width="1176" height="396" rx="28" fill="#07060B" stroke="#2D2118" stroke-width="2"/>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="384" rx="24" fill="#060A0F" stroke="#1A2632" stroke-width="2"/>
+  <rect x="34" y="34" width="1132" height="352" rx="18" fill="url(#panel)" stroke="#203141" stroke-width="2"/>
+  <rect x="34" y="34" width="1132" height="352" rx="18" fill="url(#scanlines)"/>
+  <rect x="34" y="34" width="1132" height="42" rx="18" fill="#0A0F15"/>
+  <path d="M34 58H1166" stroke="#16212C"/>
 
-  <g clip-path="url(#frameClip)">
-    <image href="../background.png" x="-8" y="-12" width="1216" height="456" preserveAspectRatio="xMidYMid slice"/>
-    <rect x="12" y="12" width="1176" height="110" fill="url(#topShade)"/>
-    <rect x="12" y="238" width="1176" height="170" fill="url(#bottomShade)"/>
+  <text x="62" y="60" fill="#94A8BC" font-family="'Courier New', monospace" font-size="13">alihusseini07@github: ~/profile</text>
+  <text x="1010" y="60" fill="#4ADE80" font-family="'Courier New', monospace" font-size="13">status: online</text>
 
-    <rect x="0" y="0" width="1200" height="420" fill="#0E0A08" fill-opacity="0.08"/>
+  <rect x="58" y="96" width="248" height="230" rx="14" fill="#091019" stroke="#1A2C3C"/>
+  <rect x="58" y="96" width="248" height="230" rx="14" fill="url(#cyanGlow)"/>
+  <text x="78" y="126" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ whoami</text>
+  <text x="78" y="156" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="15">Ali Husseini</text>
+  <text x="78" y="180" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="14">Mechatronics Engineering, 1B</text>
+  <text x="78" y="204" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="14">University of Waterloo</text>
+  <text x="78" y="246" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ current_focus</text>
+  <text x="78" y="276" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">AI workflows</text>
+  <text x="78" y="298" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">full-stack products</text>
+  <text x="78" y="320" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">embedded systems</text>
 
-    <g opacity="0.22">
-      <rect x="40" y="36" width="12" height="12" fill="#A8703D"/>
-      <rect x="52" y="48" width="12" height="12" fill="#A8703D"/>
-      <rect x="64" y="60" width="12" height="12" fill="#A8703D"/>
-      <rect x="1084" y="52" width="12" height="12" fill="#A8703D"/>
-      <rect x="1096" y="64" width="12" height="12" fill="#A8703D"/>
-      <rect x="1108" y="76" width="12" height="12" fill="#A8703D"/>
-    </g>
-  </g>
-
-  <g>
-    <rect x="34" y="34" width="1132" height="22" rx="11" fill="#0A0B10" fill-opacity="0.76" stroke="#3A2A1F"/>
-    <text x="54" y="49" fill="#C8A06A" font-family="'Courier New', monospace" font-size="12">alihusseini07</text>
-  </g>
-
-  <g filter="url(#panelShadow)">
-    <path d="M668 94H1092L1122 124V282L1092 312H668L638 282V124L668 94Z" fill="url(#panelGlow)" fill-opacity="0.9"/>
-    <path d="M668 94H1092L1122 124H698L668 94Z" fill="#4B311E" fill-opacity="0.95"/>
-    <path d="M638 282L668 312H1092L1122 282H638Z" fill="#1A1516" fill-opacity="0.95"/>
-    <path d="M668 94H1092L1122 124V282L1092 312H668L638 282V124L668 94Z" stroke="#8B6039" stroke-width="3"/>
-  </g>
-
+  <rect x="334" y="96" width="790" height="230" rx="14" fill="#0A1017" stroke="#1A2C3C"/>
+  <rect x="334" y="96" width="790" height="230" rx="14" fill="url(#greenGlow)"/>
+  <text x="362" y="130" fill="#4ADE80" font-family="'Courier New', monospace" font-size="14">$ cat headline.txt</text>
   <g filter="url(#textGlow)">
-    <text x="686" y="152" fill="#E9C48A" font-family="'Courier New', monospace" font-size="18" font-weight="700">ALI HUSSEINI</text>
-    <text x="686" y="204" fill="#FFF3D9" font-family="'Courier New', monospace" font-size="38" font-weight="700">BUILDING THINGS</text>
-    <text x="686" y="246" fill="#FFF3D9" font-family="'Courier New', monospace" font-size="38" font-weight="700">THAT ACTUALLY WORK</text>
+    <text x="362" y="188" fill="#F7FAFC" font-family="'Courier New', monospace" font-size="44" font-weight="700">building things</text>
+    <text x="362" y="236" fill="#F7FAFC" font-family="'Courier New', monospace" font-size="44" font-weight="700">that actually work</text>
   </g>
+  <text x="362" y="278" fill="#9AB1C5" font-family="'Courier New', monospace" font-size="18">practical systems, shipped with intent</text>
 
-  <text x="688" y="278" fill="#D5E4F4" font-family="'Courier New', monospace" font-size="17">AI WORKFLOWS  |  FULL-STACK PRODUCTS  |  EMBEDDED SYSTEMS</text>
+  <text x="362" y="318" fill="#22D3EE" font-family="'Courier New', monospace" font-size="14">$ echo $STATUS</text>
+  <text x="520" y="318" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">open to Fall 2026 internships</text>
+  <text x="362" y="344" fill="#4ADE80" font-family="'Courier New', monospace" font-size="14">$ history | tail -1</text>
+  <text x="520" y="344" fill="#E6F1FB" font-family="'Courier New', monospace" font-size="14">previous co-op: ATS360 / Netdynamic</text>
 
-  <g>
-    <rect x="680" y="326" width="212" height="34" fill="#3B2414" fill-opacity="0.96" stroke="#A26A3A" stroke-width="3"/>
-    <text x="698" y="348" fill="#FFD290" font-family="'Courier New', monospace" font-size="16" font-weight="700">OPEN TO FALL 26 INTERNSHIPS</text>
-
-    <rect x="908" y="326" width="214" height="34" fill="#17212A" fill-opacity="0.96" stroke="#56758D" stroke-width="3"/>
-    <text x="926" y="348" fill="#A9D7FF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PREVIOUS CO-OP: ATS360 / NETDYNAMIC</text>
-  </g>
-
-  <g opacity="0.9">
-    <rect x="78" y="256" width="224" height="88" fill="#1F150F" fill-opacity="0.92" stroke="#875933" stroke-width="3"/>
-    <rect x="90" y="268" width="200" height="26" fill="#2A1B13" stroke="#A16C3D" stroke-width="2"/>
-    <text x="104" y="286" fill="#F2D29B" font-family="'Courier New', monospace" font-size="15" font-weight="700">DWARVEN BUILD LOG</text>
-    <text x="104" y="312" fill="#F8E8C8" font-family="'Courier New', monospace" font-size="13">uw mechatronics 1b</text>
-    <text x="104" y="330" fill="#F8E8C8" font-family="'Courier New', monospace" font-size="13">practical systems, shipped with intent</text>
+  <g opacity="0.7">
+    <path d="M1068 118H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1056 134H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1076 150H1092" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1034 274H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1050 290H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1068 306H1092" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
   </g>
 </svg>
