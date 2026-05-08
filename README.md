@@ -19,7 +19,7 @@
 
 ---
 
-## `whoami`
+## `whoami/`
 
 ```txt
 Ali Husseini
@@ -31,26 +31,7 @@ full-stack apps, and embedded projects that are meant to be used,
 not just shown.
 ```
 
-## `what_i_work_on`
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>AI Workflow Tools</h3>
-      <p>Production-focused AI features, automation, and workflow systems that reduce manual overhead and fit real operating constraints.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Full-Stack Products</h3>
-      <p>Apps with strong backend structure, clean UI, and real user value, especially where data, planning, or decision support matter.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Embedded + Systems</h3>
-      <p>Firmware, hardware-adjacent builds, and engineering work that connect software decisions to physical systems.</p>
-    </td>
-  </tr>
-</table>
-
-## `stack`
+## `stack/`
 
 ### Languages
 
@@ -104,7 +85,7 @@ not just shown.
   <img src="https://img.shields.io/badge/AWS_Bedrock-111827?style=for-the-badge&logo=amazonaws&logoColor=F59E0B" alt="AWS Bedrock" />
 </p>
 
-## `featured_builds`
+## `featured_builds/`
 
 <table>
   <tr>
@@ -133,7 +114,7 @@ not just shown.
   </tr>
 </table>
 
-## `current_direction`
+## `current_direction/`
 
 ```txt
 building software that helps people make better decisions faster
