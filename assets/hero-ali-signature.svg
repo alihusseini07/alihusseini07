@@ -1,27 +1,25 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="caveBg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A0812"/>
-      <stop offset="0.5" stop-color="#17162A"/>
-      <stop offset="1" stop-color="#23160E"/>
+    <clipPath id="frameClip">
+      <rect x="12" y="12" width="1176" height="396" rx="28"/>
+    </clipPath>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050409" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#050409" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFDD8B"/>
-      <stop offset="1" stop-color="#B96A2B"/>
+    <linearGradient id="bottomShade" x1="0" y1="420" x2="0" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050409" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#050409" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="blueLight" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#E2F0FF"/>
-      <stop offset="1" stop-color="#6AA9FF"/>
+    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2E2017"/>
+      <stop offset="1" stop-color="#14181F"/>
     </linearGradient>
-    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#8E5930"/>
-      <stop offset="1" stop-color="#4C2D1B"/>
-    </linearGradient>
-    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="8"/>
     </filter>
-    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -29,80 +27,58 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="420" rx="26" fill="url(#caveBg)"/>
+  <rect x="12" y="12" width="1176" height="396" rx="28" fill="#07060B" stroke="#2D2118" stroke-width="2"/>
 
-  <path d="M0 0H1200V110C1100 88 1024 58 936 70C842 82 776 118 690 112C586 104 526 56 420 56C290 56 248 118 126 116C78 114 38 102 0 92V0Z" fill="#05040B"/>
-  <path d="M0 420V318C80 304 144 284 220 250C304 212 352 170 420 160C496 150 544 188 610 184C690 180 736 116 826 108C930 98 1014 150 1092 210C1138 244 1170 286 1200 316V420H0Z" fill="#140F1A"/>
-  <path d="M0 420V352C92 340 152 332 232 286C320 236 370 186 454 184C536 182 584 230 660 230C748 230 806 160 900 156C1002 152 1090 220 1200 334V420H0Z" fill="#24170F"/>
+  <g clip-path="url(#frameClip)">
+    <image href="../background.png" x="-8" y="-12" width="1216" height="456" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="12" y="12" width="1176" height="110" fill="url(#topShade)"/>
+    <rect x="12" y="238" width="1176" height="170" fill="url(#bottomShade)"/>
 
-  <g opacity="0.8" filter="url(#softBlur)">
-    <ellipse cx="618" cy="44" rx="104" ry="38" fill="#FFF7D2"/>
-    <path d="M562 38L474 248" stroke="#E6F0FF" stroke-width="12" stroke-linecap="round" opacity="0.55"/>
-    <path d="M606 26L584 282" stroke="#D7E8FF" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
-    <path d="M650 34L710 250" stroke="#C5DDFF" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
-    <path d="M694 46L834 270" stroke="#C5DDFF" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
-  </g>
+    <rect x="0" y="0" width="1200" height="420" fill="#0E0A08" fill-opacity="0.08"/>
 
-  <g opacity="0.65">
-    <path d="M104 292H980" stroke="#6E4427" stroke-width="12" stroke-linecap="square"/>
-    <path d="M214 292V360" stroke="#7C4E2B" stroke-width="12" stroke-linecap="square"/>
-    <path d="M416 292V360" stroke="#7C4E2B" stroke-width="12" stroke-linecap="square"/>
-    <path d="M618 292V360" stroke="#7C4E2B" stroke-width="12" stroke-linecap="square"/>
-    <path d="M820 292V360" stroke="#7C4E2B" stroke-width="12" stroke-linecap="square"/>
-  </g>
-
-  <g opacity="0.85">
-    <rect x="140" y="120" width="186" height="118" fill="#22170F" stroke="#8A5A31" stroke-width="4"/>
-    <rect x="154" y="134" width="158" height="90" fill="#2D1F15" stroke="#C18449" stroke-width="3"/>
-    <text x="172" y="170" fill="#F5D49B" font-family="'Courier New', monospace" font-size="18" font-weight="700">alihusseini07</text>
-    <text x="172" y="197" fill="#FFDFA1" font-family="'Courier New', monospace" font-size="13">mechatronics @ waterloo</text>
-    <text x="172" y="214" fill="#FFDFA1" font-family="'Courier New', monospace" font-size="13">builder class: ai + systems</text>
+    <g opacity="0.22">
+      <rect x="40" y="36" width="12" height="12" fill="#A8703D"/>
+      <rect x="52" y="48" width="12" height="12" fill="#A8703D"/>
+      <rect x="64" y="60" width="12" height="12" fill="#A8703D"/>
+      <rect x="1084" y="52" width="12" height="12" fill="#A8703D"/>
+      <rect x="1096" y="64" width="12" height="12" fill="#A8703D"/>
+      <rect x="1108" y="76" width="12" height="12" fill="#A8703D"/>
+    </g>
   </g>
 
   <g>
-    <path d="M308 300L344 118" stroke="#635C5C" stroke-width="8" stroke-linecap="square"/>
-    <path d="M344 118L372 142" stroke="#8F8780" stroke-width="8" stroke-linecap="square"/>
-    <circle cx="344" cy="118" r="12" fill="#C7C2B5"/>
-    <path d="M344 130V296" stroke="#D5D1C8" stroke-width="6" stroke-dasharray="10 10">
-      <animate attributeName="stroke-dashoffset" values="0;20" dur="2.5s" repeatCount="indefinite"/>
-    </path>
+    <rect x="34" y="34" width="1132" height="22" rx="11" fill="#0A0B10" fill-opacity="0.76" stroke="#3A2A1F"/>
+    <text x="54" y="49" fill="#C8A06A" font-family="'Courier New', monospace" font-size="12">alihusseini07</text>
   </g>
 
-  <g opacity="0.95">
-    <path d="M754 108H1080L1110 138V276L1080 306H754L724 276V138L754 108Z" fill="#131018" stroke="#4D3927" stroke-width="4"/>
-    <path d="M754 108H1080L1110 138H784L754 108Z" fill="#372516"/>
-    <path d="M724 276L754 306H1080L1110 276H724Z" fill="#24170F"/>
-
-    <g filter="url(#titleGlow)">
-      <text x="782" y="174" fill="#FFF3D5" font-family="'Courier New', monospace" font-size="34" font-weight="700">BUILDING THINGS</text>
-      <text x="782" y="214" fill="#FFF3D5" font-family="'Courier New', monospace" font-size="34" font-weight="700">THAT ACTUALLY WORK</text>
-    </g>
-
-    <text x="782" y="246" fill="#D9E9FF" font-family="'Courier New', monospace" font-size="17">AI WORKFLOWS  |  FULL-STACK PRODUCTS</text>
-    <text x="782" y="268" fill="#D9E9FF" font-family="'Courier New', monospace" font-size="17">EMBEDDED SYSTEMS  |  PRACTICAL BUILDS</text>
+  <g filter="url(#panelShadow)">
+    <path d="M668 94H1092L1122 124V282L1092 312H668L638 282V124L668 94Z" fill="url(#panelGlow)" fill-opacity="0.9"/>
+    <path d="M668 94H1092L1122 124H698L668 94Z" fill="#4B311E" fill-opacity="0.95"/>
+    <path d="M638 282L668 312H1092L1122 282H638Z" fill="#1A1516" fill-opacity="0.95"/>
+    <path d="M668 94H1092L1122 124V282L1092 312H668L638 282V124L668 94Z" stroke="#8B6039" stroke-width="3"/>
   </g>
 
-  <g opacity="0.98">
-    <rect x="752" y="314" width="204" height="36" fill="#2B1C11" stroke="#8E5F37" stroke-width="3"/>
-    <text x="772" y="337" fill="#FFD58E" font-family="'Courier New', monospace" font-size="16" font-weight="700">OPEN TO FALL 26 INTERNSHIPS</text>
-    <rect x="970" y="314" width="170" height="36" fill="#111A22" stroke="#4A667A" stroke-width="3"/>
-    <text x="988" y="337" fill="#9AD3FF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PREV CO-OP: ATS360</text>
+  <g filter="url(#textGlow)">
+    <text x="686" y="152" fill="#E9C48A" font-family="'Courier New', monospace" font-size="18" font-weight="700">ALI HUSSEINI</text>
+    <text x="686" y="204" fill="#FFF3D9" font-family="'Courier New', monospace" font-size="38" font-weight="700">BUILDING THINGS</text>
+    <text x="686" y="246" fill="#FFF3D9" font-family="'Courier New', monospace" font-size="38" font-weight="700">THAT ACTUALLY WORK</text>
   </g>
 
-  <g opacity="0.85">
-    <circle cx="198" cy="314" r="12" fill="#FFBE58" filter="url(#softBlur)"/>
-    <circle cx="198" cy="314" r="6" fill="#FFD98E"/>
-    <circle cx="1046" cy="286" r="12" fill="#FFBE58" filter="url(#softBlur)"/>
-    <circle cx="1046" cy="286" r="6" fill="#FFD98E"/>
+  <text x="688" y="278" fill="#D5E4F4" font-family="'Courier New', monospace" font-size="17">AI WORKFLOWS  |  FULL-STACK PRODUCTS  |  EMBEDDED SYSTEMS</text>
+
+  <g>
+    <rect x="680" y="326" width="212" height="34" fill="#3B2414" fill-opacity="0.96" stroke="#A26A3A" stroke-width="3"/>
+    <text x="698" y="348" fill="#FFD290" font-family="'Courier New', monospace" font-size="16" font-weight="700">OPEN TO FALL 26 INTERNSHIPS</text>
+
+    <rect x="908" y="326" width="214" height="34" fill="#17212A" fill-opacity="0.96" stroke="#56758D" stroke-width="3"/>
+    <text x="926" y="348" fill="#A9D7FF" font-family="'Courier New', monospace" font-size="14" font-weight="700">PREVIOUS CO-OP: ATS360 / NETDYNAMIC</text>
   </g>
 
-  <g opacity="0.18">
-    <rect x="106" y="84" width="12" height="12" fill="#A86B39"/>
-    <rect x="118" y="96" width="12" height="12" fill="#A86B39"/>
-    <rect x="130" y="108" width="12" height="12" fill="#A86B39"/>
-    <rect x="1058" y="88" width="12" height="12" fill="#A86B39"/>
-    <rect x="1070" y="100" width="12" height="12" fill="#A86B39"/>
-    <rect x="1082" y="112" width="12" height="12" fill="#A86B39"/>
-    <rect x="1094" y="124" width="12" height="12" fill="#A86B39"/>
+  <g opacity="0.9">
+    <rect x="78" y="256" width="224" height="88" fill="#1F150F" fill-opacity="0.92" stroke="#875933" stroke-width="3"/>
+    <rect x="90" y="268" width="200" height="26" fill="#2A1B13" stroke="#A16C3D" stroke-width="2"/>
+    <text x="104" y="286" fill="#F2D29B" font-family="'Courier New', monospace" font-size="15" font-weight="700">DWARVEN BUILD LOG</text>
+    <text x="104" y="312" fill="#F8E8C8" font-family="'Courier New', monospace" font-size="13">uw mechatronics 1b</text>
+    <text x="104" y="330" fill="#F8E8C8" font-family="'Courier New', monospace" font-size="13">practical systems, shipped with intent</text>
   </g>
 </svg>
