@@ -36,9 +36,7 @@ and code that someone else can read six months later.
 <b>$ git log --oneline --graph --since="30 days ago"</b>
 </pre>
 
-<a href="https://github.com/alihusseini07">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=alihusseini07&bg_color=0d1117&color=c9a227&line=c9a227&point=ffffff&area=false&hide_border=true&title_color=c9a227&custom_title=Recent%20Contributions" alt="Contribution graph" />
-</a>
+<img width="100%" src="./assets/contributions.svg" alt="Contribution graph" />
 
 <pre>
 <b>$ ls -la ~/featured_builds</b>
@@ -90,16 +88,3 @@ summary:  Built AI video screening, scheduling workflows, and resume
 ```
 </details>
 
-```bash
-$ tail -n 5 ~/status.log
-[OPEN]    Fall 2026 SWE internships
-[PREV]    SWE Co-op  · ATS360 / Netdynamic
-[FOCUS]   applied AI with real operational value
-[BUILD]   user-first products — fast, useful, well-structured
-[VALUE]   if it doesn't feel good to use, it isn't done
-```
-
-```bash
-$ exit
-─ thanks for reading. links above are clickable. say hi anytime. ─
-```
