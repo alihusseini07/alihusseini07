@@ -33,58 +33,59 @@ and code that someone else can read six months later.
 </p>
 
 <pre>
-<b>$ git log --oneline --graph --since="30 days ago"</b>
-</pre>
-
-<img width="100%" src="./assets/contributions-v2.svg" alt="Contribution graph" />
-
-<pre>
 <b>$ ls -la ~/featured_builds</b>
-total 4
-drwxr-xr-x  <a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a>                # social cooking, computer-vision pantry
-drwxr-xr-x  <a href="https://github.com/athravseruwam07/clarus">Clarus/</a>                # LLM-planned student dashboard, D2L sync
-drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a>        # co-op job ranker, Chrome extension
-drwxr-xr-x  ATS360-Netdynamic/     # AI hiring tools, prod @ 30+ teams
 </pre>
 
-<details>
-<summary><code>$ cat ~/featured_builds/<a href="https://github.com/MatthewKim07/chef-it">ChefIt</a>/README.md</code></summary>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
+**[`ChefIt/`](https://github.com/MatthewKim07/chef-it)**
 ```yaml
 stack:    SwiftUI · Node.js · Express · PostgreSQL · OpenAI Vision
-summary:  Social cooking platform with pantry scanning, recipe matching,
-          social posting, reviews, and smart shopping flows.
+summary:  Social cooking platform with pantry scanning, recipe
+          matching, social posting, reviews, and smart shopping flows.
 ```
-</details>
 
-<details>
-<summary><code>$ cat ~/featured_builds/<a href="https://github.com/athravseruwam07/clarus">Clarus</a>/README.md</code></summary>
+</td>
+<td width="50%" valign="top">
 
+**[`Clarus/`](https://github.com/athravseruwam07/clarus)**
 ```yaml
 stack:    TypeScript · Next.js · React · Fastify · Prisma · Playwright
 summary:  Student dashboard that syncs D2L course data and uses an
           LLM-powered planning layer to rank deadlines and guide
           daily academic work.
 ```
-</details>
 
-<details>
-<summary><code>$ cat ~/featured_builds/<a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+</a>/README.md</code></summary>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
+**[`WaterlooWorks+/`](https://github.com/MatthewKim07/waterloo-works-plus)**
 ```yaml
 stack:    JavaScript · Node.js · PDF.js · Chrome Extension APIs
-summary:  Co-op job discovery extension that parses resumes, scores fit,
-          highlights gaps, and reorders postings by compatibility.
+summary:  Co-op job discovery extension that parses resumes, scores
+          fit, highlights gaps, and reorders postings by compatibility.
 ```
-</details>
 
-<details>
-<summary><code>$ cat ~/featured_builds/ATS360-Netdynamic/README.md</code></summary>
+</td>
+<td width="50%" valign="top">
 
+**`ATS360-Netdynamic/`**
 ```yaml
 stack:    SuiteScript · AWS Lambda · S3 · Transcribe · Bedrock
 summary:  Built AI video screening, scheduling workflows, and resume
           scoring QA for 30+ enterprise hiring teams in production.
 ```
-</details>
 
+</td>
+</tr>
+</table>
+
+<pre>
+<b>$ git log --oneline --graph --since="30 days ago"</b>
+</pre>
+
+<img width="100%" src="./assets/contributions-v2.svg" alt="Contribution graph" />
