@@ -46,28 +46,28 @@ drwxr-xr-x  ATS360-Netdynamic/     # AI hiring tools, prod @ 30+ teams
 <td width="50%" valign="top">
 <samp><b><a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a> README.md</b><br>
 ──────────────────────────<br>
-stack &nbsp;&nbsp; SwiftUI · Node.js · Express · PostgreSQL · OpenAI Vision<br>
-summary Social cooking platform with pantry scanning, recipe matching, social posting, reviews, and smart shopping flows.</samp>
+<font color="#22D3EE">stack:</font> &nbsp;&nbsp;<font color="#4ADE80">SwiftUI · Node.js · Express · PostgreSQL · OpenAI Vision</font><br>
+<font color="#22D3EE">summary:</font> <font color="#4ADE80">Social cooking platform with pantry scanning, recipe matching, social posting, reviews, and smart shopping flows.</font></samp>
 </td>
 <td width="50%" valign="top">
 <samp><b><a href="https://github.com/athravseruwam07/clarus">Clarus/</a> README.md</b><br>
 ──────────────────────────<br>
-stack &nbsp;&nbsp; TypeScript · Next.js · React · Fastify · Prisma · Playwright<br>
-summary Student dashboard that syncs D2L course data and uses an LLM-powered planning layer to rank deadlines and guide daily academic work.</samp>
+<font color="#22D3EE">stack:</font> &nbsp;&nbsp;<font color="#4ADE80">TypeScript · Next.js · React · Fastify · Prisma · Playwright</font><br>
+<font color="#22D3EE">summary:</font> <font color="#4ADE80">Student dashboard that syncs D2L course data and uses an LLM-powered planning layer to rank deadlines and guide daily academic work.</font></samp>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <samp><b><a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a> README.md</b><br>
 ──────────────────────────<br>
-stack &nbsp;&nbsp; JavaScript · Node.js · PDF.js · Chrome Extension APIs<br>
-summary Co-op job discovery extension that parses resumes, scores fit, highlights gaps, and reorders postings by compatibility.</samp>
+<font color="#22D3EE">stack:</font> &nbsp;&nbsp;<font color="#4ADE80">JavaScript · Node.js · PDF.js · Chrome Extension APIs</font><br>
+<font color="#22D3EE">summary:</font> <font color="#4ADE80">Co-op job discovery extension that parses resumes, scores fit, highlights gaps, and reorders postings by compatibility.</font></samp>
 </td>
 <td width="50%" valign="top">
 <samp><b>ATS360-Netdynamic/ README.md</b><br>
 ──────────────────────────<br>
-stack &nbsp;&nbsp; SuiteScript · AWS Lambda · S3 · Transcribe · Bedrock<br>
-summary Built AI video screening, scheduling workflows, and resume scoring QA for 30+ enterprise hiring teams in production.</samp>
+<font color="#22D3EE">stack:</font> &nbsp;&nbsp;<font color="#4ADE80">SuiteScript · AWS Lambda · S3 · Transcribe · Bedrock</font><br>
+<font color="#22D3EE">summary:</font> <font color="#4ADE80">Built AI video screening, scheduling workflows, and resume scoring QA for 30+ enterprise hiring teams in production.</font></samp>
 </td>
 </tr>
 </table>
