@@ -57,21 +57,38 @@ def yp(v):
 
 points = [(xp(i), yp(counts[i])) for i in range(n)]
 
-def smooth_path(pts, t=0.4):
+def monotone_path(pts):
+    n = len(pts)
+    dx = [pts[i+1][0] - pts[i][0] for i in range(n-1)]
+    dy = [pts[i+1][1] - pts[i][1] for i in range(n-1)]
+    slopes = [dy[i] / dx[i] if dx[i] != 0 else 0 for i in range(n-1)]
+
+    tangents = [0.0] * n
+    tangents[0] = slopes[0]
+    tangents[-1] = slopes[-1]
+    for i in range(1, n-1):
+        tangents[i] = (slopes[i-1] + slopes[i]) / 2
+
+    for i in range(n-1):
+        if slopes[i] == 0:
+            tangents[i] = tangents[i+1] = 0
+        else:
+            a = tangents[i] / slopes[i]
+            b = tangents[i+1] / slopes[i]
+            h = (a**2 + b**2) ** 0.5
+            if h > 3:
+                tangents[i] = 3 * a / h * slopes[i]
+                tangents[i+1] = 3 * b / h * slopes[i]
+
     d = [f"M {pts[0][0]:.2f},{pts[0][1]:.2f}"]
-    for i in range(len(pts) - 1):
-        x0, y0 = pts[i - 1] if i > 0 else pts[i]
+    for i in range(n-1):
         x1, y1 = pts[i]
-        x2, y2 = pts[i + 1]
-        x3, y3 = pts[i + 2] if i + 2 < len(pts) else pts[i + 1]
-        cp1x = x1 + (x2 - x0) * t
-        cp1y = y1 + (y2 - y0) * t
-        cp2x = x2 - (x3 - x1) * t
-        cp2y = y2 - (y3 - y1) * t
-        d.append(f"C {cp1x:.2f},{cp1y:.2f} {cp2x:.2f},{cp2y:.2f} {x2:.2f},{y2:.2f}")
+        x2, y2 = pts[i+1]
+        s = dx[i]
+        d.append(f"C {x1 + s/3:.2f},{y1 + tangents[i]*s/3:.2f} {x2 - s/3:.2f},{y2 - tangents[i+1]*s/3:.2f} {x2:.2f},{y2:.2f}")
     return " ".join(d)
 
-path_d = smooth_path(points)
+path_d = monotone_path(points)
 path_len = int(sum(
     ((points[i + 1][0] - points[i][0]) ** 2 + (points[i + 1][1] - points[i][1]) ** 2) ** 0.5
     for i in range(len(points) - 1)
@@ -127,7 +144,7 @@ for i, (px, py) in enumerate(points):
 lines.append("</svg>")
 
 os.makedirs("assets", exist_ok=True)
-with open("assets/contrib-graph.svg", "w") as f:
+with open("assets/contributions-v2.svg", "w") as f:
     f.write("\n".join(lines))
 
-print(f"Generated assets/contrib-graph.svg ({n} days, max={max_count})")
+print(f"Generated assets/contributions-v2.svg ({n} days, max={max_count})")
