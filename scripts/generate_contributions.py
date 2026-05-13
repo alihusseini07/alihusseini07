@@ -56,11 +56,26 @@ def yp(v):
 
 
 points = [(xp(i), yp(counts[i])) for i in range(n)]
-path_d = "M " + " L ".join(f"{x:.2f},{y:.2f}" for x, y in points)
+
+def smooth_path(pts, t=0.4):
+    d = [f"M {pts[0][0]:.2f},{pts[0][1]:.2f}"]
+    for i in range(len(pts) - 1):
+        x0, y0 = pts[i - 1] if i > 0 else pts[i]
+        x1, y1 = pts[i]
+        x2, y2 = pts[i + 1]
+        x3, y3 = pts[i + 2] if i + 2 < len(pts) else pts[i + 1]
+        cp1x = x1 + (x2 - x0) * t
+        cp1y = y1 + (y2 - y0) * t
+        cp2x = x2 - (x3 - x1) * t
+        cp2y = y2 - (y3 - y1) * t
+        d.append(f"C {cp1x:.2f},{cp1y:.2f} {cp2x:.2f},{cp2y:.2f} {x2:.2f},{y2:.2f}")
+    return " ".join(d)
+
+path_d = smooth_path(points)
 path_len = int(sum(
     ((points[i + 1][0] - points[i][0]) ** 2 + (points[i + 1][1] - points[i][1]) ** 2) ** 0.5
     for i in range(len(points) - 1)
-)) + 10
+) * 1.15) + 10
 
 tick_count = 5
 y_ticks = [(round((i / tick_count) * max_count), yp(round((i / tick_count) * max_count))) for i in range(tick_count + 1)]
