@@ -41,36 +41,7 @@ drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">Waterl
 drwxr-xr-x  ATS360-Netdynamic/     # AI hiring tools, prod @ 30+ teams
 </pre>
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<samp><b><a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a> README.md</b><br>
-──────────────────────────<br></samp>
-<font color="#22D3EE"><samp>stack:</samp></font><samp> &nbsp;&nbsp;</samp><font color="#4ADE80"><samp>SwiftUI · Node.js · Express · PostgreSQL · OpenAI Vision</samp></font><br>
-<font color="#22D3EE"><samp>summary:</samp></font><samp> </samp><font color="#4ADE80"><samp>Social cooking platform with pantry scanning, recipe matching, social posting, reviews, and smart shopping flows.</samp></font>
-</td>
-<td width="50%" valign="top">
-<samp><b><a href="https://github.com/athravseruwam07/clarus">Clarus/</a> README.md</b><br>
-──────────────────────────<br></samp>
-<font color="#22D3EE"><samp>stack:</samp></font><samp> &nbsp;&nbsp;</samp><font color="#4ADE80"><samp>TypeScript · Next.js · React · Fastify · Prisma · Playwright</samp></font><br>
-<font color="#22D3EE"><samp>summary:</samp></font><samp> </samp><font color="#4ADE80"><samp>Student dashboard that syncs D2L course data and uses an LLM-powered planning layer to rank deadlines and guide daily academic work.</samp></font>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<samp><b><a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a> README.md</b><br>
-──────────────────────────<br></samp>
-<font color="#22D3EE"><samp>stack:</samp></font><samp> &nbsp;&nbsp;</samp><font color="#4ADE80"><samp>JavaScript · Node.js · PDF.js · Chrome Extension APIs</samp></font><br>
-<font color="#22D3EE"><samp>summary:</samp></font><samp> </samp><font color="#4ADE80"><samp>Co-op job discovery extension that parses resumes, scores fit, highlights gaps, and reorders postings by compatibility.</samp></font>
-</td>
-<td width="50%" valign="top">
-<samp><b>ATS360-Netdynamic/ README.md</b><br>
-──────────────────────────<br></samp>
-<font color="#22D3EE"><samp>stack:</samp></font><samp> &nbsp;&nbsp;</samp><font color="#4ADE80"><samp>SuiteScript · AWS Lambda · S3 · Transcribe · Bedrock</samp></font><br>
-<font color="#22D3EE"><samp>summary:</samp></font><samp> </samp><font color="#4ADE80"><samp>Built AI video screening, scheduling workflows, and resume scoring QA for 30+ enterprise hiring teams in production.</samp></font>
-</td>
-</tr>
-</table>
+<img width="100%" src="./assets/project-cards.svg" alt="Featured projects" />
 
 <pre>
 <b>$ git log --oneline --graph --since="30 days ago"</b>

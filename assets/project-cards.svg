@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 382" width="960" height="382">
+  <rect width="960" height="382" rx="10" fill="#05080C" stroke="#1B2733" stroke-width="1.5"/>
+  <rect x="10" y="10" width="465" height="176" rx="7" fill="#070D14" stroke="#1B2733" stroke-width="1"/>
+  <text x="28" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6F1FB">ChefIt/<tspan fill="#5C7388"> README.md</tspan></text>
+  <line x1="28" y1="49" x2="457" y2="49" stroke="#1B2733" stroke-width="1"/>
+  <text x="28" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">stack:</text>
+  <text x="98.4" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">SwiftUI · Node.js · Express · PostgreSQL ·</text>
+  <text x="98.4" y="91" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">OpenAI Vision</text>
+  <text x="28" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">summary:</text>
+  <text x="98.4" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Social cooking platform with pantry scanning,</text>
+  <text x="98.4" y="133" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">recipe matching, social posting, reviews, and</text>
+  <text x="98.4" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">smart shopping flows.</text>
+  <rect x="485" y="10" width="465" height="176" rx="7" fill="#070D14" stroke="#1B2733" stroke-width="1"/>
+  <text x="503" y="39" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6F1FB">Clarus/<tspan fill="#5C7388"> README.md</tspan></text>
+  <line x1="503" y1="49" x2="932" y2="49" stroke="#1B2733" stroke-width="1"/>
+  <text x="503" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">stack:</text>
+  <text x="573.4" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">TypeScript · Next.js · React · Fastify ·</text>
+  <text x="573.4" y="91" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Prisma · Playwright</text>
+  <text x="503" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">summary:</text>
+  <text x="573.4" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Student dashboard that syncs D2L course data</text>
+  <text x="573.4" y="133" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">and uses an LLM-powered planning layer to</text>
+  <text x="573.4" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">rank deadlines and guide daily academic work.</text>
+  <rect x="10" y="196" width="465" height="176" rx="7" fill="#070D14" stroke="#1B2733" stroke-width="1"/>
+  <text x="28" y="225" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6F1FB">WaterlooWorks+/<tspan fill="#5C7388"> README.md</tspan></text>
+  <line x1="28" y1="235" x2="457" y2="235" stroke="#1B2733" stroke-width="1"/>
+  <text x="28" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">stack:</text>
+  <text x="98.4" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">JavaScript · Node.js · PDF.js · Chrome</text>
+  <text x="98.4" y="277" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Extension APIs</text>
+  <text x="28" y="298" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">summary:</text>
+  <text x="98.4" y="298" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Co-op job discovery extension that parses</text>
+  <text x="98.4" y="319" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">resumes, scores fit, highlights gaps, and</text>
+  <text x="98.4" y="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">reorders postings by compatibility.</text>
+  <rect x="485" y="196" width="465" height="176" rx="7" fill="#070D14" stroke="#1B2733" stroke-width="1"/>
+  <text x="503" y="225" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#E6F1FB">ATS360-Netdynamic/<tspan fill="#5C7388"> README.md</tspan></text>
+  <line x1="503" y1="235" x2="932" y2="235" stroke="#1B2733" stroke-width="1"/>
+  <text x="503" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">stack:</text>
+  <text x="573.4" y="256" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">SuiteScript · AWS Lambda · S3 · Transcribe ·</text>
+  <text x="573.4" y="277" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Bedrock</text>
+  <text x="503" y="298" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22D3EE">summary:</text>
+  <text x="573.4" y="298" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">Built AI video screening, scheduling</text>
+  <text x="573.4" y="319" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">workflows, and resume scoring QA for 30+</text>
+  <text x="573.4" y="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#4ADE80">enterprise hiring teams in production.</text>
+</svg>
