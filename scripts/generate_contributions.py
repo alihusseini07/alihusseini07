@@ -64,7 +64,7 @@ path_len = int(sum(
 
 tick_count = 5
 y_ticks = [(round((i / tick_count) * max_count), yp(round((i / tick_count) * max_count))) for i in range(tick_count + 1)]
-x_labels = [(i, dates[i][8:10].lstrip("0") or "0") for i in range(n) if i % 5 == 0 or i == n - 1]
+x_labels = [(i, dates[i][8:10].lstrip("0") or "0") for i in range(n)]
 
 lines = []
 lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">')
@@ -95,7 +95,7 @@ for val, y in y_ticks:
     lines.append(f'  <text x="{pad_l - 8}" y="{y + 4:.2f}" text-anchor="end" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">{val}</text>')
 
 for i, label in x_labels:
-    lines.append(f'  <text x="{xp(i):.2f}" y="{H - pad_b + 18}" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">{label}</text>')
+    lines.append(f'  <text x="{xp(i):.2f}" y="{H - pad_b + 16}" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">{label}</text>')
 
 lines.append(f'  <line x1="{pad_l}" y1="{pad_t}" x2="{pad_l}" y2="{pad_t + plot_h}" stroke="#2A3B4C" stroke-width="1"/>')
 lines.append(f'  <line x1="{pad_l}" y1="{pad_t + plot_h}" x2="{W - pad_r}" y2="{pad_t + plot_h}" stroke="#2A3B4C" stroke-width="1"/>')

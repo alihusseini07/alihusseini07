@@ -27,17 +27,40 @@
   <text x="44" y="125.41" text-anchor="end" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">10</text>
   <text x="44" y="81.18" text-anchor="end" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">14</text>
   <text x="44" y="48.00" text-anchor="end" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">17</text>
-  <text x="52.00" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">14</text>
-  <text x="204.41" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">19</text>
-  <text x="356.83" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">24</text>
-  <text x="509.24" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">29</text>
-  <text x="661.66" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">4</text>
-  <text x="814.07" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">9</text>
-  <text x="936.00" y="250" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">13</text>
+  <text x="52.00" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">14</text>
+  <text x="82.48" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">15</text>
+  <text x="112.97" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">16</text>
+  <text x="143.45" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">17</text>
+  <text x="173.93" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">18</text>
+  <text x="204.41" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">19</text>
+  <text x="234.90" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">20</text>
+  <text x="265.38" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">21</text>
+  <text x="295.86" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">22</text>
+  <text x="326.34" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">23</text>
+  <text x="356.83" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">24</text>
+  <text x="387.31" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">25</text>
+  <text x="417.79" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">26</text>
+  <text x="448.28" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">27</text>
+  <text x="478.76" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">28</text>
+  <text x="509.24" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">29</text>
+  <text x="539.72" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">30</text>
+  <text x="570.21" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">1</text>
+  <text x="600.69" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">2</text>
+  <text x="631.17" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">3</text>
+  <text x="661.66" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">4</text>
+  <text x="692.14" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">5</text>
+  <text x="722.62" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">6</text>
+  <text x="753.10" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">7</text>
+  <text x="783.59" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">8</text>
+  <text x="814.07" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">9</text>
+  <text x="844.55" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">10</text>
+  <text x="875.03" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">11</text>
+  <text x="905.52" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">12</text>
+  <text x="936.00" y="248" text-anchor="middle" fill="#5C7388" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">13</text>
   <line x1="52" y1="44" x2="52" y2="232" stroke="#2A3B4C" stroke-width="1"/>
   <line x1="52" y1="232" x2="936" y2="232" stroke="#2A3B4C" stroke-width="1"/>
-  <path d="M 52.00,232.00 L 82.48,232.00 L 112.97,232.00 L 143.45,232.00 L 173.93,232.00 L 204.41,232.00 L 234.90,232.00 L 265.38,232.00 L 295.86,232.00 L 326.34,232.00 L 356.83,232.00 L 387.31,232.00 L 417.79,232.00 L 448.28,232.00 L 478.76,143.53 L 509.24,143.53 L 539.72,154.59 L 570.21,232.00 L 600.69,232.00 L 631.17,232.00 L 661.66,232.00 L 692.14,232.00 L 722.62,220.94 L 753.10,209.88 L 783.59,44.00 L 814.07,209.88 L 844.55,232.00 L 875.03,220.94 L 905.52,165.65 L 936.00,143.53" fill="none" stroke="url(#lg)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="1340" stroke-dashoffset="1340">
-    <animate attributeName="stroke-dashoffset" from="1340" to="0" dur="1.8s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze" begin="0.2s"/>
+  <path d="M 52.00,232.00 L 82.48,232.00 L 112.97,232.00 L 143.45,232.00 L 173.93,232.00 L 204.41,232.00 L 234.90,232.00 L 265.38,232.00 L 295.86,232.00 L 326.34,232.00 L 356.83,232.00 L 387.31,232.00 L 417.79,232.00 L 448.28,232.00 L 478.76,143.53 L 509.24,143.53 L 539.72,154.59 L 570.21,232.00 L 600.69,232.00 L 631.17,232.00 L 661.66,232.00 L 692.14,232.00 L 722.62,220.94 L 753.10,209.88 L 783.59,44.00 L 814.07,209.88 L 844.55,232.00 L 875.03,220.94 L 905.52,165.65 L 936.00,132.47" fill="none" stroke="url(#lg)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="1348" stroke-dashoffset="1348">
+    <animate attributeName="stroke-dashoffset" from="1348" to="0" dur="1.8s" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1" fill="freeze" begin="0.2s"/>
   </path>
   <circle cx="52.00" cy="232.00" r="3.5" fill="#22D3EE" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="0.2s"/></circle>
   <circle cx="82.48" cy="232.00" r="3.5" fill="#22D3EE" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="0.262s"/></circle>
@@ -68,5 +91,5 @@
   <circle cx="844.55" cy="232.00" r="3.5" fill="#22D3EE" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="1.814s"/></circle>
   <circle cx="875.03" cy="220.94" r="3.5" fill="#4ADE80" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="1.876s"/></circle>
   <circle cx="905.52" cy="165.65" r="3.5" fill="#4ADE80" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="1.938s"/></circle>
-  <circle cx="936.00" cy="143.53" r="3.5" fill="#4ADE80" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="2.0s"/></circle>
+  <circle cx="936.00" cy="132.47" r="3.5" fill="#4ADE80" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="2.0s"/></circle>
 </svg>
