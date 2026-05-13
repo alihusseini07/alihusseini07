@@ -7,6 +7,7 @@
 ─────────────────────────────────────────────────────────────
   portfolio   →  <a href="https://alihusseini.vercel.app/">alihusseini.vercel.app</a>
   linkedin    →  <a href="https://www.linkedin.com/in/ahusseini-profile">linkedin.com/in/ahusseini-profile</a>
+  devpost     →  <a href="https://devpost.com/ahusseini007">devpost.com/ahusseini007</a>
   email       →  <a href="mailto:a35husse@uwaterloo.ca">a35husse@uwaterloo.ca</a>
 ─────────────────────────────────────────────────────────────
 </pre>
@@ -30,6 +31,14 @@ and code that someone else can read six months later.
 <p align="center">
   <img src="./assets/stack-tree.svg" width="100%" alt="Stack — languages, frameworks, infra" />
 </p>
+
+<pre>
+<b>$ git log --oneline --graph --since="30 days ago"</b>
+</pre>
+
+<a href="https://github.com/alihusseini07">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=alihusseini07&bg_color=0d1117&color=c9a227&line=c9a227&point=ffffff&area=false&hide_border=true&title_color=c9a227&custom_title=Recent%20Contributions" alt="Contribution graph" />
+</a>
 
 <pre>
 <b>$ ls -la ~/featured_builds</b>
