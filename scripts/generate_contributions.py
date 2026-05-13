@@ -112,7 +112,7 @@ for i, (px, py) in enumerate(points):
 lines.append("</svg>")
 
 os.makedirs("assets", exist_ok=True)
-with open("assets/contributions.svg", "w") as f:
+with open("assets/contributions-graph.svg", "w") as f:
     f.write("\n".join(lines))
 
-print(f"Generated assets/contributions.svg ({n} days, max={max_count})")
+print(f"Generated assets/contributions-graph.svg ({n} days, max={max_count})")
