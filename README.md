@@ -36,7 +36,7 @@ and code that someone else can read six months later.
 <b>$ git log --oneline --graph --since="30 days ago"</b>
 </pre>
 
-<img width="100%" src="./assets/contributions-graph.svg" alt="Contribution graph" />
+<img width="100%" src="./assets/contrib-graph.svg" alt="Contribution graph" />
 
 <pre>
 <b>$ ls -la ~/featured_builds</b>
