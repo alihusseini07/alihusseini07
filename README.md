@@ -8,7 +8,7 @@
   portfolio   →  <a href="https://alihusseini.ca/">alihusseini.ca</a>
   linkedin    →  <a href="https://www.linkedin.com/in/ahusseini-profile">linkedin.com/in/ahusseini-profile</a>
   devpost     →  <a href="https://devpost.com/ahusseini007">devpost.com/ahusseini007</a>
-  email       →  <a href="mailto:a35husse@uwaterloo.ca">a35husse@uwaterloo.ca</a>
+  email       →  <a href="mailto:ahusseini007@gmail.com">ahusseini007@gmail.com</a>
 ─────────────────────────────────────────────────────────────
 </pre>
 
