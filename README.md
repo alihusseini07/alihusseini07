@@ -5,7 +5,7 @@
 <pre>
 <b>$ ./connect --links</b>
 ─────────────────────────────────────────────────────────────
-  portfolio   →  <a href="https://alihusseini.vercel.app/">alihusseini.vercel.app</a>
+  portfolio   →  <a href="https://alihusseini.ca/">alihusseini.ca</a>
   linkedin    →  <a href="https://www.linkedin.com/in/ahusseini-profile">linkedin.com/in/ahusseini-profile</a>
   devpost     →  <a href="https://devpost.com/ahusseini007">devpost.com/ahusseini007</a>
   email       →  <a href="mailto:a35husse@uwaterloo.ca">a35husse@uwaterloo.ca</a>
