@@ -1,5 +1,6 @@
 import os
 import requests
+from datetime import date, timedelta
 
 TOKEN = os.environ["GITHUB_TOKEN"]
 USERNAME = "alihusseini07"
@@ -34,6 +35,18 @@ all_days = []
 for week in weeks:
     all_days.extend(week["contributionDays"])
 all_days.sort(key=lambda d: d["date"])
+
+today = date.today().isoformat()
+if all_days and all_days[-1]["date"] < today:
+    known = {d["date"] for d in all_days}
+    cursor = date.fromisoformat(all_days[-1]["date"]) + timedelta(days=1)
+    end = date.today()
+    while cursor <= end:
+        s = cursor.isoformat()
+        if s not in known:
+            all_days.append({"date": s, "contributionCount": 0})
+        cursor += timedelta(days=1)
+
 last_30 = all_days[-30:]
 
 counts = [d["contributionCount"] for d in last_30]
