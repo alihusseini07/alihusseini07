@@ -58,6 +58,7 @@ pad_l, pad_r, pad_t, pad_b = 52, 24, 44, 48
 plot_w = W - pad_l - pad_r
 plot_h = H - pad_t - pad_b
 n = len(last_30)
+DOT_R = 3.5
 
 
 def xp(i):
@@ -65,7 +66,8 @@ def xp(i):
 
 
 def yp(v):
-    return pad_t + plot_h - (v / max_count) * plot_h
+    # Inset by DOT_R so dots at extremes sit inside bounds, not straddling axes
+    return pad_t + DOT_R + (plot_h - 2 * DOT_R) * (1 - v / max_count)
 
 
 points = [(xp(i), yp(counts[i])) for i in range(n)]
@@ -152,7 +154,7 @@ lines.append(f'''  <path d="{path_d}" fill="none" stroke="url(#lg)" stroke-width
 for i, (px, py) in enumerate(points):
     delay = round(0.2 + (i / (n - 1)) * 1.8, 3)
     dot_color = "#22D3EE" if counts[i] == 0 else "#4ADE80"
-    lines.append(f'  <circle cx="{px:.2f}" cy="{py:.2f}" r="3.5" fill="{dot_color}" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="{delay}s"/></circle>')
+    lines.append(f'  <circle cx="{px:.2f}" cy="{py:.2f}" r="{DOT_R}" fill="{dot_color}" filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" fill="freeze" begin="{delay}s"/></circle>')
 
 lines.append("</svg>")
 
