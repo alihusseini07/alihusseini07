@@ -1,6 +1,6 @@
-<svg width="1280" height="620" viewBox="0 0 1280 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ali Husseini — stack">
+<svg width="1280" height="710" viewBox="0 0 1280 710" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ali Husseini — stack">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="620" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="710" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#06080C"/>
       <stop offset="1" stop-color="#0A1118"/>
     </linearGradient>
@@ -14,11 +14,11 @@
     </pattern>
   </defs>
 
-  <rect width="1280" height="620" fill="url(#bg)"/>
-  <rect width="1280" height="620" fill="url(#grid)" opacity="0.5"/>
+  <rect width="1280" height="710" fill="url(#bg)"/>
+  <rect width="1280" height="710" fill="url(#grid)" opacity="0.5"/>
 
   <!-- terminal window -->
-  <rect x="36" y="28" width="1208" height="564" rx="14" fill="#05080C" stroke="#1B2733" stroke-width="1.5"/>
+  <rect x="36" y="28" width="1208" height="648" rx="14" fill="#05080C" stroke="#1B2733" stroke-width="1.5"/>
   <path d="M36 42 a14 14 0 0 1 14 -14 h1180 a14 14 0 0 1 14 14 v30 h-1208 z" fill="#0E151D"/>
   <line x1="36" y1="72" x2="1244" y2="72" stroke="#1B2733" stroke-width="1"/>
   <circle cx="60" cy="50" r="6" fill="#FF5F57"/>
@@ -65,7 +65,9 @@
       <text y="262" fill="#7E94A8">├── </text><text x="36" y="262" fill="#E70488" font-weight="600">Pandas</text>
       <text y="288" fill="#7E94A8">├── </text><text x="36" y="288" fill="#2EAD33" font-weight="600">Playwright</text>
       <text y="314" fill="#7E94A8">├── </text><text x="36" y="314" fill="#0A9EDC" font-weight="600">pytest</text>
-      <text y="340" fill="#7E94A8">└── </text><text x="36" y="340" fill="#F26B23" font-weight="600">SuiteScript</text>
+      <text y="340" fill="#7E94A8">├── </text><text x="36" y="340" fill="#009688" font-weight="600">FastAPI</text>
+      <text y="366" fill="#7E94A8">├── </text><text x="36" y="366" fill="#646CFF" font-weight="600">Vite</text>
+      <text y="392" fill="#7E94A8">└── </text><text x="36" y="392" fill="#F26B23" font-weight="600">SuiteScript</text>
     </g>
 
     <!-- INFRA subtree (with nested AWS) -->
@@ -74,20 +76,23 @@
       <text y="28"  fill="#7E94A8">├── </text><text x="36" y="28"  fill="#F05032" font-weight="600">Git</text>
       <text y="54"  fill="#7E94A8">├── </text><text x="36" y="54"  fill="#E6F1FB" font-weight="600">GitHub</text>
       <text y="80"  fill="#7E94A8">├── </text><text x="36" y="80"  fill="#2496ED" font-weight="600">Docker</text>
-      <text y="106" fill="#7E94A8">├── </text><text x="36" y="106" fill="#4169E1" font-weight="600">PostgreSQL</text>
-      <text y="132" fill="#7E94A8">├── </text><text x="36" y="132" fill="#3ECF8E" font-weight="600">Supabase</text>
-      <text y="158" fill="#7E94A8">├── </text><text x="36" y="158" fill="#00E599" font-weight="600">Neon</text>
-      <text y="184" fill="#7E94A8">├── </text><text x="36" y="184" fill="#BC59FE" font-weight="600">Railway</text>
-      <text y="210" fill="#7E94A8">├── </text><text x="36" y="210" fill="#F26B23" font-weight="600">NetSuite</text>
-      <text y="236" fill="#7E94A8">├── </text><text x="36" y="236" fill="#F26B23" font-weight="600">SuiteCloud</text>
-      <text y="262" fill="#7E94A8">├── </text><text x="36" y="262" fill="#E6F1FB" font-weight="600">Notion</text>
-      <text y="288" fill="#7E94A8">├── </text><text x="36" y="288" fill="#21A366" font-weight="600">Excel</text>
-      <text y="314" fill="#7E94A8">└── </text><text x="36" y="314" fill="#FF9900" font-weight="700">AWS/</text>
-      <text x="36" y="340" fill="#7E94A8">├── </text><text x="72" y="340" fill="#FF9900" font-weight="600">S3</text>
-      <text x="36" y="366" fill="#7E94A8">├── </text><text x="72" y="366" fill="#FF9900" font-weight="600">Lambda</text>
-      <text x="36" y="392" fill="#7E94A8">└── </text><text x="72" y="392" fill="#FF9900" font-weight="600">Bedrock</text>
+      <text y="106" fill="#7E94A8">├── </text><text x="36" y="106" fill="#326CE5" font-weight="600">Kubernetes</text>
+      <text y="132" fill="#7E94A8">├── </text><text x="36" y="132" fill="#4169E1" font-weight="600">PostgreSQL</text>
+      <text y="158" fill="#7E94A8">├── </text><text x="36" y="158" fill="#DC382D" font-weight="600">Redis</text>
+      <text y="184" fill="#7E94A8">├── </text><text x="36" y="184" fill="#3ECF8E" font-weight="600">Supabase</text>
+      <text y="210" fill="#7E94A8">├── </text><text x="36" y="210" fill="#00E599" font-weight="600">Neon</text>
+      <text y="236" fill="#7E94A8">├── </text><text x="36" y="236" fill="#BC59FE" font-weight="600">Railway</text>
+      <text y="262" fill="#7E94A8">├── </text><text x="36" y="262" fill="#F26B23" font-weight="600">NetSuite</text>
+      <text y="288" fill="#7E94A8">├── </text><text x="36" y="288" fill="#F26B23" font-weight="600">SuiteCloud</text>
+      <text y="314" fill="#7E94A8">├── </text><text x="36" y="314" fill="#E6F1FB" font-weight="600">Notion</text>
+      <text y="340" fill="#7E94A8">├── </text><text x="36" y="340" fill="#21A366" font-weight="600">Excel</text>
+      <text y="366" fill="#7E94A8">└── </text><text x="36" y="366" fill="#FF9900" font-weight="700">AWS/</text>
+      <text x="36" y="392" fill="#7E94A8">├── </text><text x="72" y="392" fill="#FF9900" font-weight="600">S3</text>
+      <text x="36" y="418" fill="#7E94A8">├── </text><text x="72" y="418" fill="#FF9900" font-weight="600">Lambda</text>
+      <text x="36" y="444" fill="#7E94A8">├── </text><text x="72" y="444" fill="#FF9900" font-weight="600">Bedrock</text>
+      <text x="36" y="470" fill="#7E94A8">└── </text><text x="72" y="470" fill="#FF9900" font-weight="600">IAM</text>
     </g>
   </g>
 
-  <rect x="36" y="590" width="1208" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
+  <rect x="36" y="674" width="1208" height="2" rx="1" fill="url(#accent)" opacity="0.5"/>
 </svg>
