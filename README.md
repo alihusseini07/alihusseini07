@@ -15,7 +15,8 @@
 ```bash
 $ cat ~/profile/about.md
 # Ali Husseini
-> 1B Mechatronics Engineering · University of Waterloo
+> 1B Mechatronics Engineering @ University of Waterloo
+> Prev @ ATS360/Netdynamic
 
 If something bugs me enough, I build a fix for it.
 My projects come from my own frustrations, not some idea I found on the internet.
