@@ -15,17 +15,15 @@
 ```bash
 $ cat ~/profile/about.md
 # Ali Husseini
-> 1B Mechatronics Engineering · University of Waterloo · Ontario, CA
+> 1B Mechatronics Engineering · University of Waterloo
 
-I build practical systems that solve real problems cleanly —
-across applied AI, full-stack products, and embedded software.
+If something bugs me enough, I build a fix for it.
+My projects come from my own frustrations, not some idea I found on the internet.
 
-I care about the user first. Every system I ship aims to feel
-fast, obvious, and friendly to the person actually using it —
-the kind of tool you don't have to think about, you just use.
+I care a lot whether what I make actually feels good to use,
+not just that it technically works.
 
-I also care about: shipped over polished, fast over clever,
-and code that someone else can read six months later.
+At the end of the day, coding is just how I solve my problems.
 ```
 
 <p align="center">
