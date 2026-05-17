@@ -67,7 +67,8 @@
       <text y="314" fill="#7E94A8">├── </text><text x="36" y="314" fill="#0A9EDC" font-weight="600">pytest</text>
       <text y="340" fill="#7E94A8">├── </text><text x="36" y="340" fill="#009688" font-weight="600">FastAPI</text>
       <text y="366" fill="#7E94A8">├── </text><text x="36" y="366" fill="#646CFF" font-weight="600">Vite</text>
-      <text y="392" fill="#7E94A8">└── </text><text x="36" y="392" fill="#F26B23" font-weight="600">SuiteScript</text>
+      <text y="392" fill="#7E94A8">├── </text><text x="36" y="392" fill="#37814A" font-weight="600">Celery</text>
+      <text y="418" fill="#7E94A8">└── </text><text x="36" y="418" fill="#F26B23" font-weight="600">SuiteScript</text>
     </g>
 
     <!-- INFRA subtree (with nested AWS) -->
