@@ -36,7 +36,7 @@ total 4
 drwxr-xr-x  <a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a>                # social cooking, computer-vision pantry
 drwxr-xr-x  <a href="https://github.com/athravseruwam07/clarus">Clarus/</a>                # LLM-planned student dashboard, D2L sync
 drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a>        # co-op job ranker, Chrome extension
-drwxr-xr-x  ATS360-Netdynamic/     # AI hiring tools, prod @ 30+ teams
+drwxr-xr-x  <a href="https://github.com/alihusseini07/compilot">Compilot/</a>              # cross-signal competitor radar, multi-agent · DeepSeek
 </pre>
 
 <img width="100%" src="./assets/project-cards.svg" alt="Featured projects" />

@@ -47,10 +47,10 @@ projects = [
         "summary": "Co-op job discovery extension that parses resumes, scores fit, highlights gaps, and reorders postings by compatibility.",
     },
     {
-        "name": "ATS360-Netdynamic/",
-        "url": None,
-        "stack": "SuiteScript · AWS Lambda · S3 · Transcribe · Bedrock",
-        "summary": "Built AI video screening, scheduling workflows, and resume scoring QA for 30+ enterprise hiring teams in production.",
+        "name": "Compilot/",
+        "url": "https://github.com/alihusseini07/compilot",
+        "stack": "React · FastAPI · Celery · PostgreSQL · DeepSeek-V3 · Kubernetes",
+        "summary": "Multi-agent competitor radar that fans across GitHub, job boards, news, and patents, synthesizing signals through daily, weekly, and monthly tiers.",
     },
 ]
 
