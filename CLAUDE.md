@@ -2,6 +2,7 @@
 
 ## Git rules
 - **Never push to remote.** Local commits only. User pushes manually.
+- **Never commit without explicit user instruction.** Do not auto-commit after edits.
 - Never amend published commits.
 - Never force-push.
 
