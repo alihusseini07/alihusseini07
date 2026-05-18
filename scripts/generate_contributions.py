@@ -48,17 +48,17 @@ if all_days and all_days[-1]["date"] < today:
             all_days.append({"date": s, "contributionCount": 0})
         cursor += timedelta(days=1)
 
-# git log is instant (no API lag); count today's commits in this repo from the checkout
-import subprocess
-
-git_result = subprocess.run(
-    ["git", "log", "--oneline", f"--since={today}T00:00:00", f"--until={today}T23:59:59"],
-    capture_output=True, text=True,
+# REST API for this repo's commits today — no lag, not affected by shallow clone
+repo_resp = requests.get(
+    f"https://api.github.com/repos/{USERNAME}/{USERNAME}/commits",
+    headers=HEADERS,
+    params={"author": USERNAME, "since": f"{today}T00:00:00Z", "per_page": 100},
 )
-repo_commits_today = len([l for l in git_result.stdout.strip().splitlines() if l])
+repo_commits_today = len(repo_resp.json()) if repo_resp.status_code == 200 else 0
 
-# Events API covers other repos but may lag slightly; use as supplemental count
-events_commits_today = 0
+# Events API for all contribution types across all repos (commits, PRs, issues, reviews)
+CONTRIBUTION_EVENTS = {"PushEvent", "PullRequestEvent", "IssuesEvent", "PullRequestReviewEvent", "CreateEvent"}
+events_today = 0
 page = 1
 while True:
     ev_resp = requests.get(
@@ -72,17 +72,22 @@ while True:
     if not events:
         break
     for e in events:
-        if e.get("type") == "PushEvent" and e.get("created_at", "")[:10] == today:
-            events_commits_today += len(e["payload"].get("commits", []))
+        if e.get("created_at", "")[:10] != today:
+            continue
+        etype = e.get("type", "")
+        if etype == "PushEvent":
+            events_today += len(e["payload"].get("commits", []))
+        elif etype in CONTRIBUTION_EVENTS:
+            events_today += 1
     if events[-1].get("created_at", "")[:10] < today:
         break
     page += 1
 
-today_commits = max(repo_commits_today, events_commits_today)
-if today_commits > 0:
+today_count = max(repo_commits_today, events_today)
+if today_count > 0:
     for d in all_days:
         if d["date"] == today:
-            d["contributionCount"] = max(d["contributionCount"], today_commits)
+            d["contributionCount"] = max(d["contributionCount"], today_count)
             break
 
 last_30 = all_days[-30:]
