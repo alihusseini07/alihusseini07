@@ -48,8 +48,17 @@ if all_days and all_days[-1]["date"] < today:
             all_days.append({"date": s, "contributionCount": 0})
         cursor += timedelta(days=1)
 
-# Events API is real-time; override today's count in case GraphQL hasn't caught up yet
-today_commits = 0
+# git log is instant (no API lag); count today's commits in this repo from the checkout
+import subprocess
+
+git_result = subprocess.run(
+    ["git", "log", "--oneline", f"--since={today}T00:00:00", f"--until={today}T23:59:59"],
+    capture_output=True, text=True,
+)
+repo_commits_today = len([l for l in git_result.stdout.strip().splitlines() if l])
+
+# Events API covers other repos but may lag slightly; use as supplemental count
+events_commits_today = 0
 page = 1
 while True:
     ev_resp = requests.get(
@@ -57,18 +66,19 @@ while True:
         headers=HEADERS,
         params={"per_page": 100, "page": page},
     )
-    ev_resp.raise_for_status()
+    if ev_resp.status_code != 200:
+        break
     events = ev_resp.json()
     if not events:
         break
     for e in events:
         if e.get("type") == "PushEvent" and e.get("created_at", "")[:10] == today:
-            today_commits += len(e["payload"].get("commits", []))
-    # Events are newest-first; stop once we're past today
+            events_commits_today += len(e["payload"].get("commits", []))
     if events[-1].get("created_at", "")[:10] < today:
         break
     page += 1
 
+today_commits = max(repo_commits_today, events_commits_today)
 if today_commits > 0:
     for d in all_days:
         if d["date"] == today:
