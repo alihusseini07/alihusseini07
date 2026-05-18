@@ -4,6 +4,7 @@ from datetime import date, timedelta
 
 TOKEN = os.environ["GITHUB_TOKEN"]
 USERNAME = "alihusseini07"
+HEADERS = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
 query = """
 query($username: String!) {
@@ -25,7 +26,7 @@ query($username: String!) {
 response = requests.post(
     "https://api.github.com/graphql",
     json={"query": query, "variables": {"username": USERNAME}},
-    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
+    headers=HEADERS,
 )
 response.raise_for_status()
 
@@ -46,6 +47,33 @@ if all_days and all_days[-1]["date"] < today:
         if s not in known:
             all_days.append({"date": s, "contributionCount": 0})
         cursor += timedelta(days=1)
+
+# Events API is real-time; override today's count in case GraphQL hasn't caught up yet
+today_commits = 0
+page = 1
+while True:
+    ev_resp = requests.get(
+        f"https://api.github.com/users/{USERNAME}/events",
+        headers=HEADERS,
+        params={"per_page": 100, "page": page},
+    )
+    ev_resp.raise_for_status()
+    events = ev_resp.json()
+    if not events:
+        break
+    for e in events:
+        if e.get("type") == "PushEvent" and e.get("created_at", "")[:10] == today:
+            today_commits += len(e["payload"].get("commits", []))
+    # Events are newest-first; stop once we're past today
+    if events[-1].get("created_at", "")[:10] < today:
+        break
+    page += 1
+
+if today_commits > 0:
+    for d in all_days:
+        if d["date"] == today:
+            d["contributionCount"] = max(d["contributionCount"], today_commits)
+            break
 
 last_30 = all_days[-30:]
 
