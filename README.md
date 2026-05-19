@@ -9,6 +9,7 @@
   linkedin    →  <a href="https://www.linkedin.com/in/ahusseini-profile">linkedin.com/in/ahusseini-profile</a>
   devpost     →  <a href="https://devpost.com/ahusseini007">devpost.com/ahusseini007</a>
   email       →  <a href="mailto:ahusseini007@gmail.com">ahusseini007@gmail.com</a>
+  resume      →  <a href="./assets/Ali%20Husseini%20-%201B%20SWE%20Resume.pdf">Ali Husseini - 1B SWE Resume.pdf</a>
 ─────────────────────────────────────────────────────────────
 </pre>
 
