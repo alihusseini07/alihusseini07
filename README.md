@@ -13,8 +13,9 @@
 ─────────────────────────────────────────────────────────────
 </pre>
 
-```bash
 **$ cat ~/profile/about.md**
+
+```bash
 > 1B Mechatronics Engineering @ University of Waterloo
 > Prev @ ATS360/Netdynamic
 
