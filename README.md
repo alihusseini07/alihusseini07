@@ -13,9 +13,8 @@
 ─────────────────────────────────────────────────────────────
 </pre>
 
-**$ cat ~/profile/about.md**
-
-```bash
+<pre>
+<b>$ cat ~/profile/about.md</b>
 > 1B Mechatronics Engineering @ University of Waterloo
 > Prev @ ATS360/Netdynamic
 
@@ -26,7 +25,7 @@ I care a lot whether what I make actually feels good to use,
 not just that it technically works.
 
 At the end of the day, coding is just how I solve my problems.
-```
+</pre>
 
 <p align="center">
   <img src="./assets/stack-tree.svg" width="100%" alt="Stack — languages, frameworks, infra" />
