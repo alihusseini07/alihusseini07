@@ -14,7 +14,7 @@
 </pre>
 
 ```bash
-$ cat ~/profile/about.md
+**$ cat ~/profile/about.md**
 > 1B Mechatronics Engineering @ University of Waterloo
 > Prev @ ATS360/Netdynamic
 
