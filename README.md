@@ -40,8 +40,6 @@ drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">Waterl
 drwxr-xr-x  <a href="https://github.com/alihusseini07/compilot">Compilot/</a>              # cross-signal competitor radar, multi-agent · DeepSeek
 </pre>
 
-<img width="100%" src="./assets/project-cards.svg" alt="Featured projects" />
-
 <pre>
 <b>$ git log --oneline --graph --since="30 days ago"</b>
 </pre>
