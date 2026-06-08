@@ -32,15 +32,6 @@ At the end of the day, coding is just how I solve my problems.
 </p>
 
 <pre>
-<b>$ ls -la ~/featured_builds</b>
-total 4
-drwxr-xr-x  <a href="https://github.com/MatthewKim07/chef-it">ChefIt/</a>                # social cooking, computer-vision pantry
-drwxr-xr-x  <a href="https://github.com/athravseruwam07/clarus">Clarus/</a>                # LLM-planned student dashboard, D2L sync
-drwxr-xr-x  <a href="https://github.com/MatthewKim07/waterloo-works-plus">WaterlooWorks+/</a>        # co-op job ranker, Chrome extension
-drwxr-xr-x  <a href="https://github.com/alihusseini07/compilot">Compilot/</a>              # cross-signal competitor radar, multi-agent · DeepSeek
-</pre>
-
-<pre>
 <b>$ git log --oneline --graph --since="30 days ago"</b>
 </pre>
 
