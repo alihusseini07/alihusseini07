@@ -2,7 +2,7 @@ currently:
 
 - mechatronics @ uwaterloo
 - building projects
-- locking in
+- learning new tech & concepts
 - looking for fall 2026 internships
 
 reach me:
