@@ -5,4 +5,4 @@ mechatronics @ uwaterloo
 - looking for fall 2026 internships
 
 reach me:
-[linkedin](https://www.linkedin.com/in/ahusseini-profile) <|> [x](https://x.com/ahusseini07) <|> [my website](https://alihusseini.ca/) <|> [contact me](mailto:a35husse@uwaterlo0.ca)
+[linkedin](https://www.linkedin.com/in/ahusseini-profile) <|> [x](https://x.com/ahusseini07) <|> [my website](https://alihusseini.ca/) <|> [email](mailto:a35husse@uwaterlo0.ca)
