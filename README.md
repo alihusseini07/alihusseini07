@@ -3,7 +3,6 @@ currently:
 - mechatronics eng @ uwaterloo
 - incoming @ [axl](https://axl.vc)
 - diving into software & robotics
-- learning new tech & concepts
 - looking for summer 2027 internships
 
 reach me:
