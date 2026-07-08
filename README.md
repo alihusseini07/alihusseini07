@@ -1,6 +1,6 @@
 currently:
 
-- mechatronics @ uwaterloo
+- mechatronics eng @ uwaterloo
 - diving into software & robotics
 - learning new tech & concepts
 - looking for fall 2026 internships
