@@ -1,5 +1,6 @@
-mechatronics @ uwaterloo
+currently
 
+- mechatronics @ uwaterloo
 - building projects
 - locking in
 - looking for fall 2026 internships
